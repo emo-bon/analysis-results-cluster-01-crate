@@ -16,7 +16,7 @@
             "@type": "Dataset",
             "name": "MetaGoFlow Results for ENA Run Accession Number not_uploaded_yet",
             "description": "RO-Crate for the MetaGOflow analysis EMO BON ENA Accession not_uploaded_yet data ",
-            "datePublished": "2024-03-26",
+            "datePublished": "2024-05-09",
             "license": {
                 "@id": "https://creativecommons.org/licenses/by/4.0/legalcode"
             },
@@ -115,105 +115,105 @@
             "encodingFormat": "application/zip"
         },
         {
-            "@id": "run.yml",
+            "@id": "https://s3.mesocentre.uca.fr/eosc-fairease-omics/EMOBON00092-sequence-ro-crate/run.yml",
             "@type": "File",
             "name": "MetaGOflow YAML configuration file",
             "description": "YAML configuration file for execution of MetaGOflow workflow.",
             "encodingFormat": "text/yaml"
         },
         {
-            "@id": "fastp.html",
+            "@id": "https://s3.mesocentre.uca.fr/eosc-fairease-omics/EMOBON00092-sequence-ro-crate/fastp.html",
             "@type": "File",
             "name": "FASTP analysis of raw sequence data",
             "description": "Quality control and preprocessing of FASTQ files",
             "encodingFormat": "text/html"
         },
         {
-            "@id": "final.contigs.fa",
+            "@id": "https://s3.mesocentre.uca.fr/eosc-fairease-omics/EMOBON00092-sequence-ro-crate/final.contigs.fa",
             "@type": "File",
             "name": "FASTA formatted contig sequences",
             "description": "These are the assembled contig sequences from the merged reads in FASTA format",
             "encodingFormat": "text/plain"
         },
         {
-            "@id": "RNA-counts",
+            "@id": "https://s3.mesocentre.uca.fr/eosc-fairease-omics/EMOBON00092-sequence-ro-crate/RNA-counts",
             "@type": "File",
             "name": "SSU and LSU count",
             "description": "numbers of RNA's counted",
             "encodingFormat": "text/plain"
         },
         {
-            "@id": "DBH_1_clean.fastq.trimmed.fasta",
+            "@id": "https://s3.mesocentre.uca.fr/eosc-fairease-omics/EMOBON00092-sequence-ro-crate/DBH_1_clean.fastq.trimmed.fasta",
             "@type": "File",
             "name": "FASTQ sequences trimmed - read 1",
             "description": "Filtered .fastq file of the single-end reads (forward)",
             "encodingFormat": "text/plain"
         },
         {
-            "@id": "DBH_1_clean.fastq.trimmed.qc_summary",
+            "@id": "https://s3.mesocentre.uca.fr/eosc-fairease-omics/EMOBON00092-sequence-ro-crate/DBH_1_clean.fastq.trimmed.qc_summary",
             "@type": "File",
             "name": "report file",
             "description": "Summary with statistics of the single-end reads (forward)",
             "encodingFormat": "text/plain"
         },
         {
-            "@id": "DBH_2_clean.fastq.trimmed.fasta",
+            "@id": "https://s3.mesocentre.uca.fr/eosc-fairease-omics/EMOBON00092-sequence-ro-crate/DBH_2_clean.fastq.trimmed.fasta",
             "@type": "File",
             "name": "FASTQ sequences trimmed - read 2",
             "description": "Filtered .fastq file of the single-end reads (reverse)",
             "encodingFormat": "text/plain"
         },
         {
-            "@id": "DBH_2_clean.fastq.trimmed.qc_summary",
+            "@id": "https://s3.mesocentre.uca.fr/eosc-fairease-omics/EMOBON00092-sequence-ro-crate/DBH_2_clean.fastq.trimmed.qc_summary",
             "@type": "File",
             "name": "filtering report file",
             "description": "Summary with statistics of the single-end reads (reverse).",
             "encodingFormat": "text/plain"
         },
         {
-            "@id": "DBH.merged_CDS.faa",
+            "@id": "https://s3.mesocentre.uca.fr/eosc-fairease-omics/EMOBON00092-sequence-ro-crate/DBH.merged_CDS.faa",
             "@type": "File",
             "name": "Gene coding protein sequences (CDS) in FASTA format",
             "description": "FASTA formatted list of sequences translated to amino acid sequence",
             "encodingFormat": "text/plain"
         },
         {
-            "@id": "DBH.merged_CDS.ffn",
+            "@id": "https://s3.mesocentre.uca.fr/eosc-fairease-omics/EMOBON00092-sequence-ro-crate/DBH.merged_CDS.ffn",
             "@type": "File",
             "name": "Gene coding nucleotide sequences (CDS) in FASTA format",
             "description": "These are the assembled contig sequences from the merged reads in FASTA format",
             "encodingFormat": "text/plain"
         },
         {
-            "@id": "DBH.merged.cmsearch.all.tblout.deoverlapped",
+            "@id": "https://s3.mesocentre.uca.fr/eosc-fairease-omics/EMOBON00092-sequence-ro-crate/DBH.merged.cmsearch.all.tblout.deoverlapped",
             "@type": "File",
             "name": "Sequences hits list",
             "description": "Sequence hits against covariance model databases. Mandatory to run partially the functional annotation step of metaGOflow",
             "encodingFormat": "text/plain"
         },
         {
-            "@id": "DBH.DBH.merged.fasta",
+            "@id": "https://s3.mesocentre.uca.fr/eosc-fairease-omics/EMOBON00092-sequence-ro-crate/DBH.DBH.merged.fasta",
             "@type": "File",
             "name": "Merged filtered reads",
             "description": "Merged filtered reads",
             "encodingFormat": "text/plain"
         },
         {
-            "@id": "DBH.DBH.merged.motus.tsv",
+            "@id": "https://s3.mesocentre.uca.fr/eosc-fairease-omics/EMOBON00092-sequence-ro-crate/DBH.DBH.merged.motus.tsv",
             "@type": "File",
             "name": "motus list",
             "description": "assignment and abundance of mOTUs and refOTUs",
             "encodingFormat": "text/plain"
         },
         {
-            "@id": "DBH.merged.qc_summary",
+            "@id": "https://s3.mesocentre.uca.fr/eosc-fairease-omics/EMOBON00092-sequence-ro-crate/DBH.merged.qc_summary",
             "@type": "File",
             "name": "Stats of merging",
             "description": "Summary with statistics of the merged reads",
             "encodingFormat": "text/plain"
         },
         {
-            "@id": "DBH.merged.unfiltered_fasta",
+            "@id": "https://s3.mesocentre.uca.fr/eosc-fairease-omics/EMOBON00092-sequence-ro-crate/DBH.merged.unfiltered_fasta",
             "@type": "File",
             "name": "Merged unfiltered reads",
             "description": "Merged unfiltered reads",
