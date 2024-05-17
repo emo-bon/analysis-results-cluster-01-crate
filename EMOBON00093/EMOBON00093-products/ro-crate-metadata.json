@@ -107,7 +107,7 @@
                     "@id": "https://eosc-fairease-omics.s3.mesocentre.uca.fr/EMOBON00093-products-ro-crate/functional-annotation/DBH.merged.summary.go"
                 },
                 {
-                    "@id": "https://eosc-fairease-omics.s3.mesocentre.uca.fr/EMOBON00093-products-ro-crate/functional-annotation/https://eosc-fairease-omics.s3.mesocentre.uca.fr/EMOBON00093-products-ro-crate/functional-annotation/DBH.merged.summary.go_slim"
+                    "@id": "https://eosc-fairease-omics.s3.mesocentre.uca.fr/EMOBON00093-products-ro-crate/functional-annotation/DBH.merged.summary.go_slim"
                 },
                 {
                     "@id": "https://eosc-fairease-omics.s3.mesocentre.uca.fr/EMOBON00093-products-ro-crate/functional-annotation/DBH.merged.summary.ips"
@@ -191,7 +191,7 @@
             "encodingFormat": "text/plain"
         },
         {
-            "@id": "https://eosc-fairease-omics.s3.mesocentre.uca.fr/EMOBON00093-products-ro-crate/functional-annotation/https://eosc-fairease-omics.s3.mesocentre.uca.fr/EMOBON00093-products-ro-crate/functional-annotation/DBH.merged.summary.go_slim",
+            "@id": "https://eosc-fairease-omics.s3.mesocentre.uca.fr/EMOBON00093-products-ro-crate/functional-annotation/DBH.merged.summary.go_slim",
             "@type": "File",
             "name": "Merged contigs InterProScan slim",
             "encodingFormat": "text/plain"
