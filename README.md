@@ -1,6 +1,6 @@
 # analysis-results-cluster-01-data
 
-To become: a first of similar places to contain the results of the different metagoflow runs.
+This is the place to contain the results of the different MetaGOflow runs: each run will put its results into its own subfolder, and each of those should create its own ro-crate metadata file that should list all its relevant content (either by remote reference or by local storage or by dvc pointer file). 
 
 Each of these runs should: 
 - be identified by some unique ref - this is the "EMO BON ref code"
