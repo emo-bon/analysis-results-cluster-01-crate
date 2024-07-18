@@ -1,6 +1,7 @@
 # analysis-results-cluster-01-data
 
 This is the place to contain the results of the different MetaGOflow runs: each run will put its results into its own subfolder, and each of those should create its own ro-crate metadata file that should list all its relevant content (either by remote reference or by local storage or by dvc pointer file). 
+***The repositories that will hold the MFG outputs are still under investigation, so while the data in here are all valid, they may be moved to another location and another organisation later***
 
 Each of these runs should: 
 - be identified by some unique ref - this is the "EMO BON ref code"
