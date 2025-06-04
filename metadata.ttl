@@ -1,0 +1,22 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@base <https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/> .
+
+<>
+    a dcat:Catalog ;
+    dc:description "Dataset catalogue for the rocrates in this repository" ;
+    dc:modified "2025-06-04T15:07:43.000"^^xsd:dateTime ;
+    dcat:dataset
+    
+        <EMOBON_RFormosa_Wa_6-ro-crate>
+    
+    .
+
+
+<EMOBON_RFormosa_Wa_6-ro-crate> a dcat:Dataset ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_RFormosa_Wa_6-ro-crate> ; 
+    ] .
