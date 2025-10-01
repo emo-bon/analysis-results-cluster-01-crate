@@ -7,8 +7,10 @@
 <>
     a dcat:Catalog ;
     dc:description "Dataset catalogue for the rocrates in this repository: https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
-    dc:modified "2025-10-01T12:46:08.000"^^xsd:dateTime ;
+    dc:modified "2025-10-01T14:55:33.000"^^xsd:dateTime ;
     dcat:dataset
+    
+        <EMOBON_NRMCB_So_17-ro-crate>,
     
         <EMOBON_BPNS_So_5-ro-crate>,
     
@@ -19,6 +21,8 @@
         <EMOBON_OOB_So_26-ro-crate>,
     
         <EMOBON_BPNS_So_6-ro-crate>,
+    
+        <EMOBON_ROSKOGO_So_22-ro-crate>,
     
         <EMOBON_NRMCB_So_7-ro-crate>,
     
@@ -69,6 +73,14 @@
     .
 
 
+<EMOBON_NRMCB_So_17-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_NRMCB_So_17-ro-crate" ;
+    dc:description "content of the dataset EMOBON_NRMCB_So_17-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_NRMCB_So_17-ro-crate> ; 
+    ] .
+
 <EMOBON_BPNS_So_5-ro-crate> a dcat:Dataset ;
     dc:title "EMOBON_BPNS_So_5-ro-crate" ;
     dc:description "content of the dataset EMOBON_BPNS_So_5-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
@@ -107,6 +119,14 @@
     dcat:distribution [
         a dcat:Distribution ;
         dcat:accessURL <EMOBON_BPNS_So_6-ro-crate> ; 
+    ] .
+
+<EMOBON_ROSKOGO_So_22-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_ROSKOGO_So_22-ro-crate" ;
+    dc:description "content of the dataset EMOBON_ROSKOGO_So_22-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_ROSKOGO_So_22-ro-crate> ; 
     ] .
 
 <EMOBON_NRMCB_So_7-ro-crate> a dcat:Dataset ;
