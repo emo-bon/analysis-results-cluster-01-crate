@@ -7,14 +7,20 @@
 <>
     a dcat:Catalog ;
     dc:description "Dataset catalogue for the rocrates in this repository: https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
-    dc:modified "2025-10-01T14:55:33.000"^^xsd:dateTime ;
+    dc:modified "2025-10-02T12:19:57.000"^^xsd:dateTime ;
     dcat:dataset
     
+        <EMOBON_NRMCB_Wa_69-ro-crate>,
+    
         <EMOBON_NRMCB_So_17-ro-crate>,
+    
+        <EMOBON_NRMCB_Wa_28-ro-crate>,
     
         <EMOBON_BPNS_So_5-ro-crate>,
     
         <EMOBON_ROSKOGO_So_1-ro-crate>,
+    
+        <EMOBON_ROSKOGO_Wa_23-ro-crate>,
     
         <EMOBON_RFormosa_So_11-ro-crate>,
     
@@ -22,7 +28,11 @@
     
         <EMOBON_BPNS_So_6-ro-crate>,
     
+        <EMOBON_ROSKOGO_Wa_38-ro-crate>,
+    
         <EMOBON_ROSKOGO_So_22-ro-crate>,
+    
+        <EMOBON_AAOT_Wa_7-ro-crate>,
     
         <EMOBON_NRMCB_So_7-ro-crate>,
     
@@ -34,6 +44,8 @@
     
         <EMOBON_BPNS_So_17-ro-crate>,
     
+        <EMOBON_VB_Wa_94-ro-crate>,
+    
         <EMOBON_NRMCB_So_1-ro-crate>,
     
         <EMOBON_NRMCB_So_2-ro-crate>,
@@ -44,11 +56,25 @@
     
         <EMOBON_OOB_So_25-ro-crate>,
     
+        <EMOBON_AAOT_Wa_66-ro-crate>,
+    
+        <EMOBON_OSD74_Wa_21-ro-crate>,
+    
+        <EMOBON_ROSKOGO_Wa_27-ro-crate>,
+    
         <EMOBON_NRMCB_So_6-ro-crate>,
+    
+        <EMOBON_ROSKOGO_Wa_37-ro-crate>,
+    
+        <EMOBON_VB_Wa_44-ro-crate>,
     
         <EMOBON_ROSKOGO_So_21-ro-crate>,
     
+        <EMOBON_AAOT_Wa_67-ro-crate>,
+    
         <EMOBON_BPNS_So_33-ro-crate>,
+    
+        <EMOBON_OSD74_Wa_24-ro-crate>,
     
         <EMOBON_RFormosa_So_7-ro-crate>,
     
@@ -56,11 +82,21 @@
     
         <EMOBON_OOB_So_1-ro-crate>,
     
+        <EMOBON_BPNS_Wa_6-ro-crate>,
+    
+        <EMOBON_AAOT_Wa_61-ro-crate>,
+    
+        <EMOBON_HCMR-1_Wa_6-ro-crate>,
+    
+        <EMOBON_PiEGetxo_Wa_14-ro-crate>,
+    
         <EMOBON_RFormosa_So_2-ro-crate>,
     
         <EMOBON_RFormosa_So_6-ro-crate>,
     
         <EMOBON_NRMCB_So_10-ro-crate>,
+    
+        <EMOBON_OSD74_Wa_22-ro-crate>,
     
         <EMOBON_ROSKOGO_So_17-ro-crate>,
     
@@ -73,12 +109,28 @@
     .
 
 
+<EMOBON_NRMCB_Wa_69-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_NRMCB_Wa_69-ro-crate" ;
+    dc:description "content of the dataset EMOBON_NRMCB_Wa_69-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_NRMCB_Wa_69-ro-crate> ; 
+    ] .
+
 <EMOBON_NRMCB_So_17-ro-crate> a dcat:Dataset ;
     dc:title "EMOBON_NRMCB_So_17-ro-crate" ;
     dc:description "content of the dataset EMOBON_NRMCB_So_17-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
     dcat:distribution [
         a dcat:Distribution ;
         dcat:accessURL <EMOBON_NRMCB_So_17-ro-crate> ; 
+    ] .
+
+<EMOBON_NRMCB_Wa_28-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_NRMCB_Wa_28-ro-crate" ;
+    dc:description "content of the dataset EMOBON_NRMCB_Wa_28-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_NRMCB_Wa_28-ro-crate> ; 
     ] .
 
 <EMOBON_BPNS_So_5-ro-crate> a dcat:Dataset ;
@@ -95,6 +147,14 @@
     dcat:distribution [
         a dcat:Distribution ;
         dcat:accessURL <EMOBON_ROSKOGO_So_1-ro-crate> ; 
+    ] .
+
+<EMOBON_ROSKOGO_Wa_23-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_ROSKOGO_Wa_23-ro-crate" ;
+    dc:description "content of the dataset EMOBON_ROSKOGO_Wa_23-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_ROSKOGO_Wa_23-ro-crate> ; 
     ] .
 
 <EMOBON_RFormosa_So_11-ro-crate> a dcat:Dataset ;
@@ -121,12 +181,28 @@
         dcat:accessURL <EMOBON_BPNS_So_6-ro-crate> ; 
     ] .
 
+<EMOBON_ROSKOGO_Wa_38-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_ROSKOGO_Wa_38-ro-crate" ;
+    dc:description "content of the dataset EMOBON_ROSKOGO_Wa_38-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_ROSKOGO_Wa_38-ro-crate> ; 
+    ] .
+
 <EMOBON_ROSKOGO_So_22-ro-crate> a dcat:Dataset ;
     dc:title "EMOBON_ROSKOGO_So_22-ro-crate" ;
     dc:description "content of the dataset EMOBON_ROSKOGO_So_22-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
     dcat:distribution [
         a dcat:Distribution ;
         dcat:accessURL <EMOBON_ROSKOGO_So_22-ro-crate> ; 
+    ] .
+
+<EMOBON_AAOT_Wa_7-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_AAOT_Wa_7-ro-crate" ;
+    dc:description "content of the dataset EMOBON_AAOT_Wa_7-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_AAOT_Wa_7-ro-crate> ; 
     ] .
 
 <EMOBON_NRMCB_So_7-ro-crate> a dcat:Dataset ;
@@ -169,6 +245,14 @@
         dcat:accessURL <EMOBON_BPNS_So_17-ro-crate> ; 
     ] .
 
+<EMOBON_VB_Wa_94-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_VB_Wa_94-ro-crate" ;
+    dc:description "content of the dataset EMOBON_VB_Wa_94-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_VB_Wa_94-ro-crate> ; 
+    ] .
+
 <EMOBON_NRMCB_So_1-ro-crate> a dcat:Dataset ;
     dc:title "EMOBON_NRMCB_So_1-ro-crate" ;
     dc:description "content of the dataset EMOBON_NRMCB_So_1-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
@@ -209,12 +293,52 @@
         dcat:accessURL <EMOBON_OOB_So_25-ro-crate> ; 
     ] .
 
+<EMOBON_AAOT_Wa_66-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_AAOT_Wa_66-ro-crate" ;
+    dc:description "content of the dataset EMOBON_AAOT_Wa_66-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_AAOT_Wa_66-ro-crate> ; 
+    ] .
+
+<EMOBON_OSD74_Wa_21-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_OSD74_Wa_21-ro-crate" ;
+    dc:description "content of the dataset EMOBON_OSD74_Wa_21-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_OSD74_Wa_21-ro-crate> ; 
+    ] .
+
+<EMOBON_ROSKOGO_Wa_27-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_ROSKOGO_Wa_27-ro-crate" ;
+    dc:description "content of the dataset EMOBON_ROSKOGO_Wa_27-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_ROSKOGO_Wa_27-ro-crate> ; 
+    ] .
+
 <EMOBON_NRMCB_So_6-ro-crate> a dcat:Dataset ;
     dc:title "EMOBON_NRMCB_So_6-ro-crate" ;
     dc:description "content of the dataset EMOBON_NRMCB_So_6-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
     dcat:distribution [
         a dcat:Distribution ;
         dcat:accessURL <EMOBON_NRMCB_So_6-ro-crate> ; 
+    ] .
+
+<EMOBON_ROSKOGO_Wa_37-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_ROSKOGO_Wa_37-ro-crate" ;
+    dc:description "content of the dataset EMOBON_ROSKOGO_Wa_37-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_ROSKOGO_Wa_37-ro-crate> ; 
+    ] .
+
+<EMOBON_VB_Wa_44-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_VB_Wa_44-ro-crate" ;
+    dc:description "content of the dataset EMOBON_VB_Wa_44-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_VB_Wa_44-ro-crate> ; 
     ] .
 
 <EMOBON_ROSKOGO_So_21-ro-crate> a dcat:Dataset ;
@@ -225,12 +349,28 @@
         dcat:accessURL <EMOBON_ROSKOGO_So_21-ro-crate> ; 
     ] .
 
+<EMOBON_AAOT_Wa_67-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_AAOT_Wa_67-ro-crate" ;
+    dc:description "content of the dataset EMOBON_AAOT_Wa_67-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_AAOT_Wa_67-ro-crate> ; 
+    ] .
+
 <EMOBON_BPNS_So_33-ro-crate> a dcat:Dataset ;
     dc:title "EMOBON_BPNS_So_33-ro-crate" ;
     dc:description "content of the dataset EMOBON_BPNS_So_33-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
     dcat:distribution [
         a dcat:Distribution ;
         dcat:accessURL <EMOBON_BPNS_So_33-ro-crate> ; 
+    ] .
+
+<EMOBON_OSD74_Wa_24-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_OSD74_Wa_24-ro-crate" ;
+    dc:description "content of the dataset EMOBON_OSD74_Wa_24-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_OSD74_Wa_24-ro-crate> ; 
     ] .
 
 <EMOBON_RFormosa_So_7-ro-crate> a dcat:Dataset ;
@@ -257,6 +397,38 @@
         dcat:accessURL <EMOBON_OOB_So_1-ro-crate> ; 
     ] .
 
+<EMOBON_BPNS_Wa_6-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_BPNS_Wa_6-ro-crate" ;
+    dc:description "content of the dataset EMOBON_BPNS_Wa_6-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_BPNS_Wa_6-ro-crate> ; 
+    ] .
+
+<EMOBON_AAOT_Wa_61-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_AAOT_Wa_61-ro-crate" ;
+    dc:description "content of the dataset EMOBON_AAOT_Wa_61-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_AAOT_Wa_61-ro-crate> ; 
+    ] .
+
+<EMOBON_HCMR-1_Wa_6-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_HCMR-1_Wa_6-ro-crate" ;
+    dc:description "content of the dataset EMOBON_HCMR-1_Wa_6-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_HCMR-1_Wa_6-ro-crate> ; 
+    ] .
+
+<EMOBON_PiEGetxo_Wa_14-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_PiEGetxo_Wa_14-ro-crate" ;
+    dc:description "content of the dataset EMOBON_PiEGetxo_Wa_14-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_PiEGetxo_Wa_14-ro-crate> ; 
+    ] .
+
 <EMOBON_RFormosa_So_2-ro-crate> a dcat:Dataset ;
     dc:title "EMOBON_RFormosa_So_2-ro-crate" ;
     dc:description "content of the dataset EMOBON_RFormosa_So_2-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
@@ -279,6 +451,14 @@
     dcat:distribution [
         a dcat:Distribution ;
         dcat:accessURL <EMOBON_NRMCB_So_10-ro-crate> ; 
+    ] .
+
+<EMOBON_OSD74_Wa_22-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_OSD74_Wa_22-ro-crate" ;
+    dc:description "content of the dataset EMOBON_OSD74_Wa_22-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_OSD74_Wa_22-ro-crate> ; 
     ] .
 
 <EMOBON_ROSKOGO_So_17-ro-crate> a dcat:Dataset ;
