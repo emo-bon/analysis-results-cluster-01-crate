@@ -1,0 +1,5 @@
+outs:
+- md5: 5e7595f89419e037920e3e45bd0e9c6b
+  size: 215
+  hash: md5
+  path: RNase_MRP.RF00030.fasta.gz
