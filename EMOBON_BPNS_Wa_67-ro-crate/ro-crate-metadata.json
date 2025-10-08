@@ -1,0 +1,995 @@
+{
+    "@context": [
+        "https://w3id.org/ro/crate/1.2/context",
+        {
+            "@vocab": "https://w3id.org/ro/crate/1.2/context",
+            "dcat": "http://www.w3.org/ns/dcat#",
+            "dct": "http://purl.org/dc/terms/",
+            "pcdm": "http://pcdm.org/models#",
+            "skos": "http://www.w3.org/2004/02/skos/core#"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "conformsTo": [
+                {
+                    "@id": "https://w3id.org/ro/crate/1.2"
+                },
+                {
+                    "@id": "https://data.emobon.embrc.eu/analysis-results-profile/latest/"
+                }
+            ],
+            "about": {
+                "@id": "./"
+            }
+        },
+        {
+            "@id": "./",
+            "@type": [
+                "Dataset",
+                "dcat:Dataset"
+            ],
+            "name": "MetaGoFlow metagenomics data products EMOBON00139 for Sampling Event EMOBON_BPNS_Wa_67",
+            "description": "\nThis is a Research Object Crate containing results data from a MetaGOflow\nworkflow analysis of metagenomic data derived from European Marine Omics\nBiodiversity Observation Network (EMO BON) project operated by the European\nMarine Biological Research Centre (EMBRC).\n\nSampling station: Flanders Marine Institute (VLIZ);Ghent University;Royal Belgian Institute of Natural Sciences;Katholieke Universiteit Leuven\nSampling country: Belgium\nSampling station lat/long: 51.433331:2.808331\nSampling environment: water_column\nSampling station contact name: Klaas Deneudt\nSampling station contact ORCID id: 0000-0002-8559-3508\nSampling station ENA project number: PRJEB51652\n\nEMO BON reference code: EMOBON00139\nEMO BON source material id: EMOBON_BPNS_Wa_67\n\nMetaGOflow run id: HVWGWDSX5.UDI110\n",
+            "datePublished": "2025-10-08",
+            "license": {
+                "@id": "https://creativecommons.org/licenses/by/4.0/"
+            },
+            "publisher": {
+                "@id": "https://ror.org/0038zss60"
+            },
+            "creator": {
+                "@id": "https://orcid.org/0000-0002-4927-979X"
+            },
+            "keywords": [
+                "sample",
+                "measurement",
+                "biodiversity",
+                "long-term-changes",
+                "marine-environment",
+                "genetics",
+                "sediment-samples",
+                "water-samples",
+                "benthic-communities"
+            ],
+            "dcat:theme": [
+                {
+                    "@id": "http://semanticscience.org/resource/SIO_001050"
+                },
+                {
+                    "@id": "http://purl.obolibrary.org/obo/ExO_0000067"
+                },
+                {
+                    "@id": "https://vocabularyserver.com/asfa/?tema=2185"
+                },
+                {
+                    "@id": "https://vocabularyserver.com/asfa/?tema=3505"
+                },
+                {
+                    "@id": "https://vocabularyserver.com/asfa/?tema=1150"
+                },
+                {
+                    "@id": "https://vocabularyserver.com/asfa/?tema=2365"
+                },
+                {
+                    "@id": "https://vocabularyserver.com/asfa/?tema=6369"
+                },
+                {
+                    "@id": "https://vocabularyserver.com/asfa/?tema=3248"
+                },
+                {
+                    "@id": "https://vocabularyserver.com/asfa/?tema=2091"
+                }
+            ],
+            "pcdm:hasMember": [
+                {
+                    "@id": "https://www.ebi.ac.uk/ena/browser/view/ERS20568944"
+                },
+                {
+                    "@id": "https://github.com/emo-bon/MetaGOflow/commit/3cf3a7d39fabc6e75a8cb2971a711c2d781c84d0"
+                }
+            ],
+            "hasPart": [
+                {
+                    "@id": "./run.yml"
+                },
+                {
+                    "@id": "./fastp.html"
+                },
+                {
+                    "@id": "./final.contigs.fa.bz2"
+                },
+                {
+                    "@id": "https://ftp.sra.ebi.ac.uk/vol1/run/ERR148/ERR14888774/DBB_AADSOSDA_1_1_HVWGWDSX5.UDI110_clean.fastq.gz"
+                },
+                {
+                    "@id": "https://ftp.sra.ebi.ac.uk/vol1/run/ERR148/ERR14888774/DBB_AADSOSDA_1_2_HVWGWDSX5.UDI110_clean.fastq.gz"
+                },
+                {
+                    "@id": "https://data.emobon.embrc.eu/sampling/EMOBON_BPNS_Wa_67"
+                },
+                {
+                    "@id": "https://data.embon.embrc.eu/sequence/EMOBON00139"
+                },
+                {
+                    "@id": "./functional-annotation/"
+                },
+                {
+                    "@id": "./sequence-categorisation/"
+                },
+                {
+                    "@id": "./taxonomy-summary/"
+                },
+                {
+                    "@id": "./config.yml"
+                },
+                {
+                    "@id": "./DBB_AADSOSDA_1_1_HVWGWDSX5.UDI110_clean.fastq.trimmed.fasta.bz2"
+                },
+                {
+                    "@id": "./DBB.merged.cmsearch.all.tblout.deoverlapped.bz2"
+                },
+                {
+                    "@id": "./DBB_AADSOSDA_1_2_HVWGWDSX5.UDI110_clean.fastq.trimmed.fasta.bz2"
+                },
+                {
+                    "@id": "./DBB.merged.qc_summary"
+                },
+                {
+                    "@id": "./DBB.merged_CDS.ffn.bz2"
+                },
+                {
+                    "@id": "./DBB.merged.unfiltered_fasta.bz2"
+                },
+                {
+                    "@id": "./DBB_AADSOSDA_1_1_HVWGWDSX5.UDI110_clean.fastq.trimmed.qc_summary"
+                },
+                {
+                    "@id": "./DBB.merged_CDS.faa.bz2"
+                },
+                {
+                    "@id": "./DBB.merged.motus.tsv.bz2"
+                },
+                {
+                    "@id": "./DBB.merged.fasta.bz2"
+                },
+                {
+                    "@id": "./DBB_AADSOSDA_1_2_HVWGWDSX5.UDI110_clean.fastq.trimmed.qc_summary"
+                }
+            ]
+        },
+        {
+            "@id": "https://ror.org/0038zss60",
+            "name": "European Marine Biological Resource Centre",
+            "@type": "Organization",
+            "contactPoint": {
+                "@id": "help@embrc.org"
+            }
+        },
+        {
+            "@id": "help@embrc.org",
+            "@type": "ContactPoint",
+            "contactType": "Help Desk",
+            "email": "mailto:help@embrc.org",
+            "url": "https://www.embrc.eu/about-us/contact-us"
+        },
+        {
+            "@id": "https://creativecommons.org/licenses/by/4.0/",
+            "@type": "CreativeWork",
+            "name": "CC BY 4.0",
+            "description": "Creative Commons Attribution 4.0 International License"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4927-979X",
+            "@type": "Person",
+            "name": "Cymon J. Cox"
+        },
+        {
+            "@id": "https://www.ebi.ac.uk/ena/browser/view/ERS20568944",
+            "@type": "Dataset",
+            "name": "EMBL ENA Run Accession Number ERS20568944",
+            "description": "ENA Run Accession Number and associated metadata",
+            "downloadUrl": "https://www.ebi.ac.uk/ena/browser/view/ERS20568944",
+            "encodingFormat": "text/html"
+        },
+        {
+            "@id": "https://ftp.sra.ebi.ac.uk/vol1/run/ERR148/ERR14888774/DBB_AADSOSDA_1_1_HVWGWDSX5.UDI110_clean.fastq.gz",
+            "@type": "Dataset",
+            "name": "EMBL ENA cleaned sequence data (forward reads)",
+            "description": "Cleaned forward reads sequence data for EMBL ENA Run Accession ERS20568944",
+            "downloadUrl": "https://ftp.sra.ebi.ac.uk/vol1/run/ERR148/ERR14888774/DBB_AADSOSDA_1_1_HVWGWDSX5.UDI110_clean.fastq.gz",
+            "encodingFormat": "application/zip"
+        },
+        {
+            "@id": "https://ftp.sra.ebi.ac.uk/vol1/run/ERR148/ERR14888774/DBB_AADSOSDA_1_2_HVWGWDSX5.UDI110_clean.fastq.gz",
+            "@type": "Dataset",
+            "name": "EMBL ENA cleaned sequence data (reverse reads)",
+            "description": "Cleaned reverse reads sequence data for EMBL ENA Run Accession ERS20568944",
+            "downloadUrl": "https://ftp.sra.ebi.ac.uk/vol1/run/ERR148/ERR14888774/DBB_AADSOSDA_1_2_HVWGWDSX5.UDI110_clean.fastq.gz",
+            "encodingFormat": "application/zip"
+        },
+        {
+            "@id": "https://github.com/emo-bon/MetaGOflow/commit/3cf3a7d39fabc6e75a8cb2971a711c2d781c84d0",
+            "@type": "SoftwareApplication",
+            "name": "MetaGOflow Software",
+            "description": "The MetaGOflow workflow software used to generate the metagenomic data",
+            "softwareVersion": "develop (3cf3a7d)",
+            "downloadUrl": "https://github.com/emo-bon/MetaGOflow/commit/3cf3a7d39fabc6e75a8cb2971a711c2d781c84d0",
+            "encodingFormat": "text/plain"
+        },
+        {
+            "@id": "./run.yml",
+            "@type": "File",
+            "name": "MetaGOflow YAML configuration file",
+            "description": "YAML configuration file for execution of MetaGOflow workflow.",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/2f/c508238e380a7aec60a22b9f48ddd5",
+            "encodingFormat": "text/yaml",
+            "contentSize": "10652"
+        },
+        {
+            "@id": "./fastp.html",
+            "@type": "File",
+            "name": "FASTP analysis of raw sequence data",
+            "description": "Quality control and preprocessing of FASTQ files",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/6b/d61986be704fa2389a231aaf011197",
+            "encodingFormat": "text/html",
+            "contentSize": "385885"
+        },
+        {
+            "@id": "./final.contigs.fa.bz2",
+            "@type": "File",
+            "name": "FASTA formatted contig sequences",
+            "description": "These are the assembled contig sequences from the merged reads in FASTA format",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/89/6332cad7d67a6ae78df789d4c0d8e5",
+            "encodingFormat": "application/x-bzip2",
+            "contentSize": "120056675"
+        },
+        {
+            "@id": "./config.yml",
+            "@type": "File",
+            "name": "MetaGOflow configuration in YAML",
+            "description": "MetaGOflow YAML configuation file",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/34/7b2857e33933c61eddc980fb4a614d",
+            "encodingFormat": "text/yaml",
+            "contentSize": "3056"
+        },
+        {
+            "@id": "./DBB_AADSOSDA_1_2_HVWGWDSX5.UDI110_clean.fastq.trimmed.qc_summary",
+            "@type": "File",
+            "name": "Trimmed reverse reads QC summary",
+            "description": "Quality control summary of trimmed reverse reads",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/0a/84db345844fd4c6a299eb15c2e9299",
+            "encodingFormat": "text/plain",
+            "contentSize": "219"
+        },
+        {
+            "@id": "./DBB.merged.fasta.bz2",
+            "@type": "File",
+            "name": "Merged reads",
+            "description": "Merged forward and reverse reads in fasta format",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/b9/fb4c091853f07559f4bdf664126f20",
+            "encodingFormat": "application/x-bzip2",
+            "contentSize": "2252186109"
+        },
+        {
+            "@id": "./DBB.merged.motus.tsv.bz2",
+            "@type": "File",
+            "name": "MOTUs",
+            "description": "Metagenomic Operational Taxonomic Units (MOTUs) in tab-separated format",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/de/9fb2efaa2a1a15eca418ed6262252d",
+            "encodingFormat": "application/x-bzip2",
+            "contentSize": "3633"
+        },
+        {
+            "@id": "./DBB.merged_CDS.faa.bz2",
+            "@type": "File",
+            "name": "Protein coding amino acid sequences",
+            "description": "Coding sequences of merged reads in amino acid format",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/3e/5608cd40430c7a27faced15fecb113",
+            "encodingFormat": "application/x-bzip2",
+            "contentSize": "1408887050"
+        },
+        {
+            "@id": "./DBB_AADSOSDA_1_1_HVWGWDSX5.UDI110_clean.fastq.trimmed.qc_summary",
+            "@type": "File",
+            "name": "Trimmed forward reads QC summary",
+            "description": "Quality control summary of trimmed forward reads",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/0a/84db345844fd4c6a299eb15c2e9299",
+            "encodingFormat": "text/plain",
+            "contentSize": "219"
+        },
+        {
+            "@id": "./DBB.merged.unfiltered_fasta.bz2",
+            "@type": "File",
+            "name": "Unfiltered merged reads",
+            "description": "All merged reads before fileting in fasta format",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/b7/65212a2b895fc0c327c5ff735c3ccf",
+            "encodingFormat": "application/x-bzip2",
+            "contentSize": "2520470404"
+        },
+        {
+            "@id": "./DBB.merged_CDS.ffn.bz2",
+            "@type": "File",
+            "name": "Protein coding nucleotide sequences",
+            "description": "Coding sequences of merged reads in nucleotide format",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/8d/515a29b4e282db6cb8c94aea66169a",
+            "encodingFormat": "application/x-bzip2",
+            "contentSize": "2030097455"
+        },
+        {
+            "@id": "./DBB.merged.qc_summary",
+            "@type": "File",
+            "name": "QC summary of merged reads",
+            "description": "Quality control analysis summary of merged reads",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/3b/986d7096d064c54824ba93e23d6abb",
+            "encodingFormat": "text/plain",
+            "contentSize": "219"
+        },
+        {
+            "@id": "./DBB_AADSOSDA_1_2_HVWGWDSX5.UDI110_clean.fastq.trimmed.fasta.bz2",
+            "@type": "File",
+            "name": "Trimmed reverse reads",
+            "description": "All reverse reads after trimming in fasta format",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/4a/c397b88b627217ccb5b275ad9c2629",
+            "encodingFormat": "application/x-bzip2",
+            "contentSize": "1176753607"
+        },
+        {
+            "@id": "./DBB.merged.cmsearch.all.tblout.deoverlapped.bz2",
+            "@type": "File",
+            "name": "Overlapped coding sequences",
+            "description": "Overlapped coding sequences (intermediate file)",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/37/c2fa2b3bad043034acd6d6ebef730b",
+            "encodingFormat": "application/x-bzip2",
+            "contentSize": "2000347"
+        },
+        {
+            "@id": "./DBB_AADSOSDA_1_1_HVWGWDSX5.UDI110_clean.fastq.trimmed.fasta.bz2",
+            "@type": "File",
+            "name": "Trimmed forward reads",
+            "description": "All forward reads after trimming in fasta format",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/7d/638f1fdcb3d5880843e6254c70f40a",
+            "encodingFormat": "application/x-bzip2",
+            "contentSize": "1176721849"
+        },
+        {
+            "@id": "./functional-annotation/",
+            "@type": "Dataset",
+            "name": "Functional annotation results",
+            "description": "Functional annotation of merged reads",
+            "hasPart": [
+                {
+                    "@id": "./functional-annotation/stats/"
+                },
+                {
+                    "@id": "./functional-annotation/DBB.merged_CDS.I5.tsv.gz"
+                },
+                {
+                    "@id": "./functional-annotation/DBB.merged.hmm.tsv.gz"
+                },
+                {
+                    "@id": "./functional-annotation/DBB.merged.summary.go"
+                },
+                {
+                    "@id": "./functional-annotation/DBB.merged.summary.go_slim"
+                },
+                {
+                    "@id": "./functional-annotation/DBB.merged.summary.ips"
+                },
+                {
+                    "@id": "./functional-annotation/DBB.merged.summary.ko"
+                },
+                {
+                    "@id": "./functional-annotation/DBB.merged.summary.pfam"
+                },
+                {
+                    "@id": "./functional-annotation/functional-annotation.ttl"
+                },
+                {
+                    "@id": "./DBB.merged.emapper.summary.eggnog"
+                }
+            ]
+        },
+        {
+            "@id": "./functional-annotation/stats/",
+            "@type": "Dataset",
+            "name": "Summary statistic for functional annotation",
+            "hasPart": [
+                {
+                    "@id": "./functional-annotation/stats/go.stats"
+                },
+                {
+                    "@id": "./functional-annotation/stats/interproscan.stats"
+                },
+                {
+                    "@id": "./functional-annotation/stats/ko.stats"
+                },
+                {
+                    "@id": "./functional-annotation/stats/orf.stats"
+                },
+                {
+                    "@id": "./functional-annotation/stats/pfam.stats"
+                }
+            ]
+        },
+        {
+            "@id": "./functional-annotation/stats/go.stats",
+            "@type": "File",
+            "name": "Geno Ontology summary statistics",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/a2/c6d0a4821e74e363ed5fa3e94c7ebe",
+            "encodingFormat": "text/plain",
+            "contentSize": "89"
+        },
+        {
+            "@id": "./functional-annotation/stats/interproscan.stats",
+            "@type": "File",
+            "name": "InterProScan summary statistics",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/05/2fec7ee868bcca549b5f297df02fc4",
+            "encodingFormat": "text/plain",
+            "contentSize": "121"
+        },
+        {
+            "@id": "./functional-annotation/stats/ko.stats",
+            "@type": "File",
+            "name": "Kegg Ontology summary statistics",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/4f/fc7eb945890aee35ba13718c12125d",
+            "encodingFormat": "text/plain",
+            "contentSize": "88"
+        },
+        {
+            "@id": "./functional-annotation/stats/orf.stats",
+            "@type": "File",
+            "name": "ORF summary statistics",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/24/141fd861cfe157dc07403223067ed0",
+            "encodingFormat": "text/plain",
+            "contentSize": "89"
+        },
+        {
+            "@id": "./functional-annotation/stats/pfam.stats",
+            "@type": "File",
+            "name": "Pfam summary statistcs",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/be/342d0a7d5af81340539b4b5ed4c55d",
+            "encodingFormat": "text/plain",
+            "contentSize": "97"
+        },
+        {
+            "@id": "./functional-annotation/DBB.merged_CDS.I5.tsv.gz",
+            "@type": "File",
+            "name": "Merged contigs CDS I5 summary",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/ee/96a47bc5651422586b72b5122112f2",
+            "encodingFormat": "application/zip",
+            "contentSize": "4294794663"
+        },
+        {
+            "@id": "./functional-annotation/DBB.merged.hmm.tsv.gz",
+            "@type": "File",
+            "name": "Merged contigs HMM summary",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/4a/fd09be0dba66e054da3f5e8353e56c",
+            "encodingFormat": "application/zip",
+            "contentSize": "40367667"
+        },
+        {
+            "@id": "./functional-annotation/DBB.merged.summary.go",
+            "@type": "File",
+            "name": "Merged contigs GO summary",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/cf/f2bd2ee8afa0957000ef6726a03ab0",
+            "encodingFormat": "text/plain",
+            "contentSize": "154704"
+        },
+        {
+            "@id": "./functional-annotation/DBB.merged.summary.go_slim",
+            "@type": "File",
+            "name": "Merged contigs InterProScan slim",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/4e/89a8912105ad36d7133d151dc13992",
+            "encodingFormat": "text/plain",
+            "contentSize": "7721"
+        },
+        {
+            "@id": "./functional-annotation/DBB.merged.summary.ips",
+            "@type": "File",
+            "name": "Merged contigs InterProScan",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/4d/6d61fc5d4f6282c3b6c08fa7a40504",
+            "encodingFormat": "text/plain",
+            "contentSize": "680552"
+        },
+        {
+            "@id": "./functional-annotation/DBB.merged.summary.ko",
+            "@type": "File",
+            "name": "Merged contigs KO summary",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/ea/6d19deb5d4eaf7fca8682cd656fd4d",
+            "encodingFormat": "text/plain",
+            "contentSize": "139016"
+        },
+        {
+            "@id": "./functional-annotation/DBB.merged.summary.pfam",
+            "@type": "File",
+            "name": "Merged contigs PFAM summary",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/0f/2658e7c706f634137c3b9555023eec",
+            "encodingFormat": "text/plain",
+            "contentSize": "582385"
+        },
+        {
+            "@id": "./functional-annotation/functional-annotation.ttl",
+            "@type": "File",
+            "name": "RDF 1.2 Turtle triples of the functional analyses results",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/d5/dab8bae14538a8a8b18217a2f8bd88",
+            "encodingFormat": "text/turtle",
+            "conformsTo": {
+                "@id": "https://data.emobon.embrc.eu/ns/profile#graph-harvestable-partition"
+            },
+            "contentSize": "58235237"
+        },
+        {
+            "@id": "./functional-annotation/DBB.merged.emapper.summary.eggnog",
+            "@type": "File",
+            "name": "Eggnog emapper summary",
+            "description": "Summary of Eggnog emapper analysis",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/fe/60f7c04bb786fb39542bd94f5dce85",
+            "encodingFormat": "text/plain",
+            "contentSize": "7500333"
+        },
+        {
+            "@id": "./sequence-categorisation/",
+            "@type": "Dataset",
+            "name": "Sequence categorisation",
+            "description": "Identify specific loci in the sample.",
+            "hasPart": [
+                {
+                    "@id": "./sequence-categorisation/Bacteria_small_SRP.RF00169.fasta.gz"
+                },
+                {
+                    "@id": "./sequence-categorisation/Protozoa_SRP.RF01856.fasta.gz"
+                },
+                {
+                    "@id": "./sequence-categorisation/tRNA-Sec.RF01852.fasta.gz"
+                },
+                {
+                    "@id": "./sequence-categorisation/LSU_rRNA_bacteria.RF02541.fa.gz"
+                },
+                {
+                    "@id": "./sequence-categorisation/alpha_tmRNA.RF01849.fasta.gz"
+                },
+                {
+                    "@id": "./sequence-categorisation/Bacteria_large_SRP.RF01854.fasta.gz"
+                },
+                {
+                    "@id": "./sequence-categorisation/LSU_rRNA_archaea.RF02540.fa.gz"
+                },
+                {
+                    "@id": "./sequence-categorisation/SSU_rRNA_archaea.RF01959.fa.gz"
+                },
+                {
+                    "@id": "./sequence-categorisation/tmRNA.RF00023.fasta.gz"
+                },
+                {
+                    "@id": "./sequence-categorisation/5_8S.fa.gz"
+                },
+                {
+                    "@id": "./sequence-categorisation/Metazoa_SRP.RF00017.fasta.gz"
+                },
+                {
+                    "@id": "./sequence-categorisation/RNaseP_arch.RF00373.fasta.gz"
+                },
+                {
+                    "@id": "./sequence-categorisation/SSU_rRNA_eukarya.RF01960.fa.gz"
+                },
+                {
+                    "@id": "./sequence-categorisation/SSU_rRNA_bacteria.RF00177.fa.gz"
+                },
+                {
+                    "@id": "./sequence-categorisation/cyano_tmRNA.RF01851.fasta.gz"
+                },
+                {
+                    "@id": "./sequence-categorisation/LSU_rRNA_eukarya.RF02543.fa.gz"
+                },
+                {
+                    "@id": "./sequence-categorisation/tRNA.RF00005.fasta.gz"
+                },
+                {
+                    "@id": "./sequence-categorisation/RNaseP_bact_a.RF00010.fasta.gz"
+                },
+                {
+                    "@id": "./sequence-categorisation/RNaseP_bact_b.RF00011.fasta.gz"
+                }
+            ]
+        },
+        {
+            "@id": "./sequence-categorisation/Bacteria_small_SRP.RF00169.fasta.gz",
+            "@type": "File",
+            "name": "RNA prediction for Bacteria_small_SRP - Rfam accesssion number: RF00169",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/fd/4d170f4afe362e63550cf7faf246c3",
+            "encodingFormat": "application/zip",
+            "contentSize": "13498"
+        },
+        {
+            "@id": "./sequence-categorisation/Protozoa_SRP.RF01856.fasta.gz",
+            "@type": "File",
+            "name": "RNA prediction for Protozoa_SRP - Rfam accesssion number: RF01856",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/c2/0a7d31539d49060a50513293bc160c",
+            "encodingFormat": "application/zip",
+            "contentSize": "227"
+        },
+        {
+            "@id": "./sequence-categorisation/tRNA-Sec.RF01852.fasta.gz",
+            "@type": "File",
+            "name": "RNA prediction for tRNA-Sec - Rfam accesssion number: RF01852",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/91/c67175d99a81b829704c8988b23aed",
+            "encodingFormat": "application/zip",
+            "contentSize": "3970"
+        },
+        {
+            "@id": "./sequence-categorisation/LSU_rRNA_bacteria.RF02541.fa.gz",
+            "@type": "File",
+            "name": "RNA prediction for LSU_rRNA_bacteria - Rfam accesssion number: RF02541",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/f1/465a17fa6492fff197dd042ae3a832",
+            "encodingFormat": "application/zip",
+            "contentSize": "3132633"
+        },
+        {
+            "@id": "./sequence-categorisation/alpha_tmRNA.RF01849.fasta.gz",
+            "@type": "File",
+            "name": "RNA prediction for alpha_tmRNA - Rfam accesssion number: RF01849",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/d8/d94c0064f68b891cb5c5abecba0686",
+            "encodingFormat": "application/zip",
+            "contentSize": "41876"
+        },
+        {
+            "@id": "./sequence-categorisation/Bacteria_large_SRP.RF01854.fasta.gz",
+            "@type": "File",
+            "name": "RNA prediction for Bacteria_large_SRP - Rfam accesssion number: RF01854",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/09/a6c2417dd23f77187e065df795051f",
+            "encodingFormat": "application/zip",
+            "contentSize": "1187"
+        },
+        {
+            "@id": "./sequence-categorisation/LSU_rRNA_archaea.RF02540.fa.gz",
+            "@type": "File",
+            "name": "RNA prediction for LSU_rRNA_archaea - Rfam accesssion number: RF02540",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/87/b4934535bbfafc5050b36708c83553",
+            "encodingFormat": "application/zip",
+            "contentSize": "92605"
+        },
+        {
+            "@id": "./sequence-categorisation/SSU_rRNA_archaea.RF01959.fa.gz",
+            "@type": "File",
+            "name": "RNA prediction for SSU_rRNA_archaea - Rfam accesssion number: RF01959",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/49/21af2e99ed4463f3e733a277d281a3",
+            "encodingFormat": "application/zip",
+            "contentSize": "46640"
+        },
+        {
+            "@id": "./sequence-categorisation/tmRNA.RF00023.fasta.gz",
+            "@type": "File",
+            "name": "RNA prediction for tmRNA - Rfam accesssion number: RF00023",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/21/54ea3df0426794266a3e781d404f8b",
+            "encodingFormat": "application/zip",
+            "contentSize": "77425"
+        },
+        {
+            "@id": "./sequence-categorisation/5_8S.fa.gz",
+            "@type": "File",
+            "name": "RNA prediction for 5_8S",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/2e/438dd8f6106e1eb26651128cad6401",
+            "encodingFormat": "application/zip",
+            "contentSize": "5122"
+        },
+        {
+            "@id": "./sequence-categorisation/Metazoa_SRP.RF00017.fasta.gz",
+            "@type": "File",
+            "name": "RNA prediction for Metazoa_SRP - Rfam accesssion number: RF00017",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/00/997d328e491e4b0e35ab2c13cfc0f7",
+            "encodingFormat": "application/zip",
+            "contentSize": "202"
+        },
+        {
+            "@id": "./sequence-categorisation/RNaseP_arch.RF00373.fasta.gz",
+            "@type": "File",
+            "name": "RNA prediction for RNaseP_arch - Rfam accesssion number: RF00373",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/a3/0af883cf5f96f0062f9289426d9f56",
+            "encodingFormat": "application/zip",
+            "contentSize": "516"
+        },
+        {
+            "@id": "./sequence-categorisation/SSU_rRNA_eukarya.RF01960.fa.gz",
+            "@type": "File",
+            "name": "RNA prediction for SSU_rRNA_eukarya - Rfam accesssion number: RF01960",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/20/cc2e144a66e466fbbd5517e4cb89df",
+            "encodingFormat": "application/zip",
+            "contentSize": "69091"
+        },
+        {
+            "@id": "./sequence-categorisation/SSU_rRNA_bacteria.RF00177.fa.gz",
+            "@type": "File",
+            "name": "RNA prediction for SSU_rRNA_bacteria - Rfam accesssion number: RF00177",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/83/08d71a7428818d818b5a7351806bbd",
+            "encodingFormat": "application/zip",
+            "contentSize": "1526027"
+        },
+        {
+            "@id": "./sequence-categorisation/cyano_tmRNA.RF01851.fasta.gz",
+            "@type": "File",
+            "name": "RNA prediction for cyano_tmRNA - Rfam accesssion number: RF01851",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/c0/710c4ffca0bb8e5c200b7e2a0fed74",
+            "encodingFormat": "application/zip",
+            "contentSize": "412"
+        },
+        {
+            "@id": "./sequence-categorisation/LSU_rRNA_eukarya.RF02543.fa.gz",
+            "@type": "File",
+            "name": "RNA prediction for LSU_rRNA_eukarya - Rfam accesssion number: RF02543",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/85/396331ef5e36b91158e19fe792db5d",
+            "encodingFormat": "application/zip",
+            "contentSize": "125876"
+        },
+        {
+            "@id": "./sequence-categorisation/tRNA.RF00005.fasta.gz",
+            "@type": "File",
+            "name": "RNA prediction for tRNA - Rfam accesssion number: RF00005",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/75/d85b33aab25b5fb66dc64545c4acc7",
+            "encodingFormat": "application/zip",
+            "contentSize": "558561"
+        },
+        {
+            "@id": "./sequence-categorisation/RNaseP_bact_a.RF00010.fasta.gz",
+            "@type": "File",
+            "name": "RNA prediction for RNaseP_bact_a - Rfam accesssion number: RF00010",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/f5/f0883ef9fabffc1b04e52dd4c2bf6f",
+            "encodingFormat": "application/zip",
+            "contentSize": "49643"
+        },
+        {
+            "@id": "./sequence-categorisation/RNaseP_bact_b.RF00011.fasta.gz",
+            "@type": "File",
+            "name": "RNA prediction for RNaseP_bact_b - Rfam accesssion number: RF00011",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/fd/db1e64c2bd2c2cf07d5d3662f5f85c",
+            "encodingFormat": "application/zip",
+            "contentSize": "282"
+        },
+        {
+            "@id": "./taxonomy-summary/",
+            "@type": "Dataset",
+            "name": "Taxonomic summary",
+            "description": "Summary of taxonomic identification results",
+            "hasPart": [
+                {
+                    "@id": "./taxonomy-summary/RNA-counts"
+                },
+                {
+                    "@id": "./taxonomy-summary/LSU/"
+                },
+                {
+                    "@id": "./taxonomy-summary/SSU/"
+                }
+            ]
+        },
+        {
+            "@id": "./taxonomy-summary/RNA-counts",
+            "@type": "File",
+            "name": "Numbers of RNA's counted",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/f9/1c038f92e1a57602e0d6dfc06ab1cd",
+            "encodingFormat": "text/plain",
+            "contentSize": "282"
+        },
+        {
+            "@id": "./taxonomy-summary/LSU/",
+            "@type": "Dataset",
+            "name": "Summary of LSU taxonomic identification results",
+            "hasPart": [
+                {
+                    "@id": "./taxonomy-summary/LSU/krona.html"
+                },
+                {
+                    "@id": "./taxonomy-summary/LSU/DBB.merged_LSU.fasta.mseq.gz"
+                },
+                {
+                    "@id": "./taxonomy-summary/LSU/DBB.merged_LSU.fasta.mseq_hdf5.biom"
+                },
+                {
+                    "@id": "./taxonomy-summary/LSU/DBB.merged_LSU.fasta.mseq_json.biom"
+                },
+                {
+                    "@id": "./taxonomy-summary/LSU/DBB.merged_LSU.fasta.mseq.tsv"
+                },
+                {
+                    "@id": "./taxonomy-summary/LSU/DBB.merged_LSU.fasta.mseq.txt"
+                },
+                {
+                    "@id": "./taxonomy-summary/LSU/LSU-taxonomy-summary.ttl"
+                }
+            ]
+        },
+        {
+            "@id": "./taxonomy-summary/LSU/krona.html",
+            "@type": "File",
+            "name": "Krona summary of LSU taxonomic inventory",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/de/a358e45ca89608250c25f4d34af5c2",
+            "encodingFormat": "application/html",
+            "contentSize": "328665"
+        },
+        {
+            "@id": "./taxonomy-summary/LSU/DBB.merged_LSU.fasta.mseq.gz",
+            "@type": "File",
+            "name": "LSU sequences used for identification",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/bc/0667c2163097300c330b5e353f42f9",
+            "encodingFormat": "application/zip",
+            "contentSize": "2619769"
+        },
+        {
+            "@id": "./taxonomy-summary/LSU/DBB.merged_LSU.fasta.mseq_hdf5.biom",
+            "@type": "File",
+            "name": "BIOM formatted hdf5 taxon counts for LSU sequences",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/ff/015e67e1370c5717aa837c5757857f",
+            "encodingFormat": "application/x-hdf5",
+            "contentSize": "88240"
+        },
+        {
+            "@id": "./taxonomy-summary/LSU/DBB.merged_LSU.fasta.mseq_json.biom",
+            "@type": "File",
+            "name": "BIOM formatted taxon counts for LSU sequences",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/53/3649db648a16c57cc3f3cf665dc5da",
+            "encodingFormat": "application/json-ld",
+            "contentSize": "132947"
+        },
+        {
+            "@id": "./taxonomy-summary/LSU/DBB.merged_LSU.fasta.mseq.tsv",
+            "@type": "File",
+            "name": "Tab-separated formatted taxon counts for LSU sequences",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/54/a44d8caae3ba86e920e8e238c2bc65",
+            "encodingFormat": "application/json-ld",
+            "contentSize": "96523"
+        },
+        {
+            "@id": "./taxonomy-summary/LSU/DBB.merged_LSU.fasta.mseq.txt",
+            "@type": "File",
+            "name": "Text-based taxon counts for LSU sequences",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/6f/b142ab984fe266a33467c11057ed88",
+            "encodingFormat": "application/json-ld",
+            "contentSize": "83524"
+        },
+        {
+            "@id": "./taxonomy-summary/LSU/LSU-taxonomy-summary.ttl",
+            "@type": "File",
+            "name": "RDF 1.2 Turtle triples of the LSU taxonomic analyses results",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/a2/252a59bfb14278756c4ac1f696303d",
+            "encodingFormat": "text/turtle",
+            "conformsTo": {
+                "@id": "https://data.emobon.embrc.eu/ns/profile#graph-harvestable-partition"
+            },
+            "contentSize": "542848"
+        },
+        {
+            "@id": "./taxonomy-summary/SSU/",
+            "@type": "Dataset",
+            "name": "Summary of SSU taxonomic identification results",
+            "hasPart": [
+                {
+                    "@id": "./taxonomy-summary/SSU/krona.html"
+                },
+                {
+                    "@id": "./taxonomy-summary/SSU/DBB.merged_SSU.fasta.mseq.gz"
+                },
+                {
+                    "@id": "./taxonomy-summary/SSU/DBB.merged_SSU.fasta.mseq_hdf5.biom"
+                },
+                {
+                    "@id": "./taxonomy-summary/SSU/DBB.merged_SSU.fasta.mseq_json.biom"
+                },
+                {
+                    "@id": "./taxonomy-summary/SSU/DBB.merged_SSU.fasta.mseq.tsv"
+                },
+                {
+                    "@id": "./taxonomy-summary/SSU/DBB.merged_SSU.fasta.mseq.txt"
+                },
+                {
+                    "@id": "./taxonomy-summary/SSU/SSU-taxonomy-summary.ttl"
+                }
+            ]
+        },
+        {
+            "@id": "./taxonomy-summary/SSU/krona.html",
+            "@type": "File",
+            "name": "Krona summary of SSU taxonomic inventory",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/de/a358e45ca89608250c25f4d34af5c2",
+            "encodingFormat": "text/html",
+            "contentSize": "328665"
+        },
+        {
+            "@id": "./taxonomy-summary/SSU/DBB.merged_SSU.fasta.mseq.gz",
+            "@type": "File",
+            "name": "SSU sequences used for identification",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/36/8aa130df91aef6fc642fe9cecbf775",
+            "encodingFormat": "application/zip",
+            "contentSize": "1296024"
+        },
+        {
+            "@id": "./taxonomy-summary/SSU/DBB.merged_SSU.fasta.mseq_hdf5.biom",
+            "@type": "File",
+            "name": "BIOM formatted hdf5 taxon counts for SSU sequences",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/be/c6ff12ba0b46386e4d4ce89bde32a9",
+            "encodingFormat": "application/x-hdf5",
+            "contentSize": "75952"
+        },
+        {
+            "@id": "./taxonomy-summary/SSU/DBB.merged_SSU.fasta.mseq_json.biom",
+            "@type": "File",
+            "name": "BIOM formatted taxon counts for SSU sequences",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/39/c9360934203515978e9160c2a795a9",
+            "encodingFormat": "application/json-ld",
+            "contentSize": "90597"
+        },
+        {
+            "@id": "./taxonomy-summary/SSU/DBB.merged_SSU.fasta.mseq.tsv",
+            "@type": "File",
+            "name": "Tab-separated formatted taxon counts for SSU sequences",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/e4/5733b23962131765272d49f98093a2",
+            "encodingFormat": "application/json-ld",
+            "contentSize": "64945"
+        },
+        {
+            "@id": "./taxonomy-summary/SSU/DBB.merged_SSU.fasta.mseq.txt",
+            "@type": "File",
+            "name": "Text-based formatted taxon counts for SSU sequences",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/e8/93bfcc2e6193ee6946510765cc529e",
+            "encodingFormat": "application/json-ld",
+            "contentSize": "55188"
+        },
+        {
+            "@id": "./taxonomy-summary/SSU/SSU-taxonomy-summary.ttl",
+            "@type": "File",
+            "name": "RDF 1.2 Turtle triples of the SSU taxonomic analyses results",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/82/3bc51522a8fe30e29a95942d6b2429",
+            "encodingFormat": "text/turtle",
+            "conformsTo": {
+                "@id": "https://data.emobon.embrc.eu/ns/profile#graph-harvestable-partition"
+            },
+            "contentSize": "381022"
+        },
+        {
+            "@id": "http://semanticscience.org/resource/SIO_001050",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "sample"
+        },
+        {
+            "@id": "http://purl.obolibrary.org/obo/ExO_0000067",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "measurement"
+        },
+        {
+            "@id": "https://vocabularyserver.com/asfa/?tema=2185",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "Biodiversity"
+        },
+        {
+            "@id": "https://vocabularyserver.com/asfa/?tema=3505",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "Long-term changes"
+        },
+        {
+            "@id": "https://vocabularyserver.com/asfa/?tema=1150",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "Marine environment"
+        },
+        {
+            "@id": "https://vocabularyserver.com/asfa/?tema=2365",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "Genetics"
+        },
+        {
+            "@id": "https://vocabularyserver.com/asfa/?tema=6369",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "Sediment samples"
+        },
+        {
+            "@id": "https://vocabularyserver.com/asfa/?tema=3248",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "Water samples"
+        },
+        {
+            "@id": "https://vocabularyserver.com/asfa/?tema=2091",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "Benthic communities"
+        }
+    ]
+}
