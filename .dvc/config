@@ -3,6 +3,6 @@
 [cache]
     dir = /usr/local/scratch/dvc-cache
 ['remote "myremote"']
-    url = s3://metagoflow-data
+    url = s3://mgf-data-products
     endpointurl = https://s3.mesocentre.uca.fr
     profile = eosc-fairease1
