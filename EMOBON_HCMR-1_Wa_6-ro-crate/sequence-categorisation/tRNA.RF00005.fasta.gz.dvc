@@ -1,0 +1,5 @@
+outs:
+- md5: 62ba3c0a2c368a3ac73105b340c68c70
+  size: 340710
+  hash: md5
+  path: tRNA.RF00005.fasta.gz

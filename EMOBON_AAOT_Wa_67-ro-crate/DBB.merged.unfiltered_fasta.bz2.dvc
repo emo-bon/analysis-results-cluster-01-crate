@@ -1,0 +1,5 @@
+outs:
+- md5: 0771fefaff8ca1b53d3ec8e21f56722b
+  size: 2027473418
+  hash: md5
+  path: DBB.merged.unfiltered_fasta.bz2
