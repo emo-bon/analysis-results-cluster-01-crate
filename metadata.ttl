@@ -7,7 +7,7 @@
 <>
     a dcat:Catalog ;
     dc:description "Dataset catalogue for the rocrates in this repository: https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
-    dc:modified "2025-10-22T05:40:18.000"^^xsd:dateTime ;
+    dc:modified "2025-10-22T07:29:04.000"^^xsd:dateTime ;
     dcat:dataset
     
         <EMOBON_ROSKOGO_Wa_23-ro-crate>,
