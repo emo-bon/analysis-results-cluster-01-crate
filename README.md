@@ -16,3 +16,6 @@ Each of these runs should:
     - either by remote reference (ref to ENA if any)
     - either by local relative storage (smaller files)
     - either by dvc.org pointer file (retrievable large objects on a ssh server to be set-up)
+
+
+More information is available in [data-workflow-book](https://data.emobon.embrc.eu/data-workflow-book/).
