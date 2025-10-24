@@ -1,0 +1,830 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix efo: <http://www.ebi.ac.uk/efo/> .
+@prefix pcdm: <http://pcdm.org/models#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://data.emobon.embrc.eu/sequence/EMOBON00173> a sdo:Dataset ;
+    rdfs:label "EMO BON RO-Crate of the sequencing metadata for EMOBON00173" ;
+    dct:conformsTo <https://w3id.org/ro/crate> ;
+    dct:format edam:format_3749 ;
+    sdo:description "EMO BON project RO-Crate of the sequencing procress metadata for the sample used in the current metagenomic analysis" ;
+    sdo:name "EMO BON RO-Crate of the sequencing metadata for EMOBON00173" ;
+    rdfs:comment "EMO BON project RO-Crate of the sequencing procress metadata for the sample used in the current metagenomic analysis" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/ro-crate-metadata.json> a sdo:CreativeWork ;
+    dct:conformsTo <https://data.emobon.embrc.eu/analysis-results-profile/latest/>,
+        <https://w3id.org/ro/crate/1.2> ;
+    sdo:about <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/> .
+
+<http://purl.obolibrary.org/obo/ExO_0000067> a skos:Concept ;
+    skos:prefLabel "measurement" .
+
+<http://semanticscience.org/resource/SIO_001050> a skos:Concept ;
+    skos:prefLabel "sample" .
+
+<https://creativecommons.org/licenses/by/4.0/> a sdo:CreativeWork ;
+    rdfs:label "CC BY 4.0" ;
+    sdo:description "Creative Commons Attribution 4.0 International License" ;
+    sdo:name "CC BY 4.0" ;
+    rdfs:comment "Creative Commons Attribution 4.0 International License" .
+
+<https://data.emobon.embrc.eu/sampling/EMOBON_VB_Wa_94> a sdo:Dataset ;
+    rdfs:label "EMO BON RO-Crate of the sample metadata for EMOBON_VB_Wa_94" ;
+    dct:conformsTo <https://w3id.org/ro/crate> ;
+    dct:format edam:format_3749 ;
+    sdo:description "EMO BON project RO-Crate of the metadata of the sequenced sample used in the current metagenomic analysis" ;
+    sdo:name "EMO BON RO-Crate of the sample metadata for EMOBON_VB_Wa_94" ;
+    rdfs:comment "EMO BON project RO-Crate of the metadata of the sequenced sample used in the current metagenomic analysis" .
+
+<https://ftp.sra.ebi.ac.uk/vol1/run/ERR148/ERR14888805/DBB_AAEWOSDA_2_1_HVWGWDSX5.UDI215_clean.fastq.gz> a sdo:MediaObject ;
+    rdfs:label "EMBL ENA cleaned sequence data (forward reads)" ;
+    dct:format edam:format_1930 ;
+    sdo:description "Cleaned forward reads sequence data for EMBL ENA Run Accession ERS20569050" ;
+    sdo:downloadUrl "https://ftp.sra.ebi.ac.uk/vol1/run/ERR148/ERR14888805/DBB_AAEWOSDA_2_1_HVWGWDSX5.UDI215_clean.fastq.gz" ;
+    sdo:encodingFormat "application/zip" ;
+    sdo:name "EMBL ENA cleaned sequence data (forward reads)" ;
+    sdo:subjectOf "https://www.ebi.ac.uk/ena/browser/view/ERS20569050" ;
+    rdfs:comment "Cleaned forward reads sequence data for EMBL ENA Run Accession ERS20569050" .
+
+<https://ftp.sra.ebi.ac.uk/vol1/run/ERR148/ERR14888805/DBB_AAEWOSDA_2_2_HVWGWDSX5.UDI215_clean.fastq.gz> a sdo:MediaObject ;
+    rdfs:label "EMBL ENA cleaned sequence data (reverse reads)" ;
+    dct:format edam:format_1930 ;
+    sdo:description "Cleaned reverse reads sequence data for EMBL ENA Run Accession ERS20569050" ;
+    sdo:downloadUrl "https://ftp.sra.ebi.ac.uk/vol1/run/ERR148/ERR14888805/DBB_AAEWOSDA_2_2_HVWGWDSX5.UDI215_clean.fastq.gz" ;
+    sdo:encodingFormat "application/zip" ;
+    sdo:name "EMBL ENA cleaned sequence data (reverse reads)" ;
+    sdo:subjectOf "https://www.ebi.ac.uk/ena/browser/view/ERS20569050" ;
+    rdfs:comment "Cleaned reverse reads sequence data for EMBL ENA Run Accession ERS20569050" .
+
+<https://github.com/emo-bon/MetaGOflow/commit/3cf3a7d39fabc6e75a8cb2971a711c2d781c84d0> a sdo:SoftwareApplication ;
+    rdfs:label "MetaGOflow Software" ;
+    sdo:description "The MetaGOflow workflow software used to generate the metagenomic data" ;
+    sdo:downloadUrl "https://github.com/emo-bon/MetaGOflow/commit/3cf3a7d39fabc6e75a8cb2971a711c2d781c84d0" ;
+    sdo:encodingFormat "text/plain" ;
+    sdo:name "MetaGOflow Software" ;
+    sdo:softwareVersion "develop (3cf3a7d)" ;
+    rdfs:comment "The MetaGOflow workflow software used to generate the metagenomic data" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/> a sdo:Dataset,
+        efo:EFO_0004602,
+        efo:EFO_0004982,
+        dcat:Dataset ;
+    rdfs:label "MetaGoFlow metagenomics data products EMOBON00173 for Sampling Event EMOBON_VB_Wa_94" ;
+    pcdm:hasMember <https://github.com/emo-bon/MetaGOflow/commit/3cf3a7d39fabc6e75a8cb2971a711c2d781c84d0>,
+        <https://www.ebi.ac.uk/ena/browser/view/ERS20569050> ;
+    sdo:comment """efo:EFO_0004982 - Microbiome: a collection or collectivity of microorganisms;
+ efo:EFO_0004602 - Metagenomic data;
+ efo:EFO_0007882 - Microbiome measurement: quantification of some aspect of an individual's microbiome;
+ efo:EFO_0007884 - Functional microbiome measurement: quantification of the functional variation in a microbiome;
+ efo:EFO_0007883 - Quantification of the taxonomic variation in a microbiome sample;
+ edam:format_1929 - FASTA format;
+ edam:format_1931 - FASTQ Illumina short read format;
+ edam:format_3746 - BIOM format;
+ edam:data_2977 - One or more nucleic acid sequences;
+ edam:data_2976 - One or more protein sequences
+ edam:format_3749 - JSON-LD""" ;
+    sdo:creator <https://orcid.org/0000-0002-4927-979X> ;
+    sdo:datePublished "2025-10-24" ;
+    sdo:description """
+This is a Research Object Crate containing results data from a MetaGOflow
+workflow analysis of metagenomic data derived from European Marine Omics
+Biodiversity Observation Network (EMO BON) project operated by the European
+Marine Biological Research Centre (EMBRC).
+
+Sampling station: Institut de la Mer de Villefranche
+Sampling country: France
+Sampling station lat/long: 43.683:7.317
+Sampling environment: water_column
+Sampling station contact name: Cecile Fauvelot
+Sampling station contact ORCID id: http://orcid.org/0000-0003-0806-1222
+Sampling station ENA project number: PRJEB51664
+
+EMO BON reference code: EMOBON00173
+EMO BON source material id: EMOBON_VB_Wa_94
+
+MetaGOflow run id: HVWGWDSX5.UDI215
+""" ;
+    sdo:hasPart <https://data.embon.embrc.eu/sequence/EMOBON00173>,
+        <https://data.emobon.embrc.eu/sampling/EMOBON_VB_Wa_94>,
+        <https://ftp.sra.ebi.ac.uk/vol1/run/ERR148/ERR14888805/DBB_AAEWOSDA_2_1_HVWGWDSX5.UDI215_clean.fastq.gz>,
+        <https://ftp.sra.ebi.ac.uk/vol1/run/ERR148/ERR14888805/DBB_AAEWOSDA_2_2_HVWGWDSX5.UDI215_clean.fastq.gz>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/DBB.merged.cmsearch.all.tblout.deoverlapped.bz2>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/DBB.merged.fasta.bz2>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/DBB.merged.motus.tsv.bz2>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/DBB.merged.qc_summary>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/DBB.merged.unfiltered_fasta.bz2>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/DBB.merged_CDS.faa.bz2>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/DBB.merged_CDS.ffn.bz2>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/DBB_AAEWOSDA_2_1_HVWGWDSX5.UDI215_clean.fastq.trimmed.fasta.bz2>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/DBB_AAEWOSDA_2_1_HVWGWDSX5.UDI215_clean.fastq.trimmed.qc_summary>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/DBB_AAEWOSDA_2_2_HVWGWDSX5.UDI215_clean.fastq.trimmed.fasta.bz2>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/DBB_AAEWOSDA_2_2_HVWGWDSX5.UDI215_clean.fastq.trimmed.qc_summary>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/config.yml>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/fastp.html>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/final.contigs.fa.bz2>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/run.yml>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/> ;
+    sdo:keywords "benthic-communities",
+        "biodiversity",
+        "genetics",
+        "long-term-changes",
+        "marine-environment",
+        "measurement",
+        "sample",
+        "sediment-samples",
+        "water-samples" ;
+    sdo:license <https://creativecommons.org/licenses/by/4.0/> ;
+    sdo:name "MetaGoFlow metagenomics data products EMOBON00173 for Sampling Event EMOBON_VB_Wa_94" ;
+    sdo:publisher <https://ror.org/0038zss60> ;
+    rdfs:comment """
+This is a Research Object Crate containing results data from a MetaGOflow
+workflow analysis of metagenomic data derived from European Marine Omics
+Biodiversity Observation Network (EMO BON) project operated by the European
+Marine Biological Research Centre (EMBRC).
+
+Sampling station: Institut de la Mer de Villefranche
+Sampling country: France
+Sampling station lat/long: 43.683:7.317
+Sampling environment: water_column
+Sampling station contact name: Cecile Fauvelot
+Sampling station contact ORCID id: http://orcid.org/0000-0003-0806-1222
+Sampling station ENA project number: PRJEB51664
+
+EMO BON reference code: EMOBON00173
+EMO BON source material id: EMOBON_VB_Wa_94
+
+MetaGOflow run id: HVWGWDSX5.UDI215
+""" ;
+    dcat:theme <http://purl.obolibrary.org/obo/ExO_0000067>,
+        <http://semanticscience.org/resource/SIO_001050>,
+        <https://vocabularyserver.com/asfa/?tema=1150>,
+        <https://vocabularyserver.com/asfa/?tema=2091>,
+        <https://vocabularyserver.com/asfa/?tema=2185>,
+        <https://vocabularyserver.com/asfa/?tema=2365>,
+        <https://vocabularyserver.com/asfa/?tema=3248>,
+        <https://vocabularyserver.com/asfa/?tema=3505>,
+        <https://vocabularyserver.com/asfa/?tema=6369> .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/DBB.merged.cmsearch.all.tblout.deoverlapped.bz2> a sdo:MediaObject ;
+    rdfs:label "Overlapped coding sequences" ;
+    sdo:contentSize "581054" ;
+    sdo:description "Overlapped coding sequences (intermediate file)" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/6d/f36c538f4aff5baca12e0698863345" ;
+    sdo:encodingFormat "application/x-bzip2" ;
+    sdo:name "Overlapped coding sequences" ;
+    rdfs:comment "Overlapped coding sequences (intermediate file)" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/DBB.merged.fasta.bz2> a edam:data_2977,
+        sdo:MediaObject ;
+    rdfs:label "Merged reads" ;
+    dct:format edam:format_1929 ;
+    sdo:contentSize "1720584154" ;
+    sdo:description "Merged forward and reverse reads in fasta format" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/30/3db9358110896911f398d4022fecea" ;
+    sdo:encodingFormat "application/x-bzip2" ;
+    sdo:name "Merged reads" ;
+    rdfs:comment "Merged forward and reverse reads in fasta format" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/DBB.merged.motus.tsv.bz2> a sdo:MediaObject ;
+    rdfs:label "MOTUs" ;
+    sdo:contentSize "2232" ;
+    sdo:description "Metagenomic Operational Taxonomic Units (MOTUs) in tab-separated format" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/3b/3fc157d76de114f32e69b03ecbb9cb" ;
+    sdo:encodingFormat "application/x-bzip2" ;
+    sdo:name "MOTUs" ;
+    rdfs:comment "Metagenomic Operational Taxonomic Units (MOTUs) in tab-separated format" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/DBB.merged.qc_summary> a sdo:MediaObject ;
+    rdfs:label "QC summary of merged reads" ;
+    sdo:contentSize "219" ;
+    sdo:description "Quality control analysis summary of merged reads" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/c8/2191906391a7dfd93da7811cbb2caf" ;
+    sdo:encodingFormat "text/plain" ;
+    sdo:name "QC summary of merged reads" ;
+    rdfs:comment "Quality control analysis summary of merged reads" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/DBB.merged.unfiltered_fasta.bz2> a edam:data_2977,
+        sdo:MediaObject ;
+    rdfs:label "Unfiltered merged reads" ;
+    dct:format edam:format_1929 ;
+    sdo:contentSize "1934852536" ;
+    sdo:description "All merged reads before fileting in fasta format" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/e1/e11b4d547be89fbba4fcfb6380388f" ;
+    sdo:encodingFormat "application/x-bzip2" ;
+    sdo:name "Unfiltered merged reads" ;
+    rdfs:comment "All merged reads before fileting in fasta format" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/DBB.merged_CDS.faa.bz2> a edam:data_2976,
+        sdo:MediaObject ;
+    rdfs:label "Protein coding amino acid sequences" ;
+    dct:format edam:format_1929 ;
+    sdo:contentSize "962936389" ;
+    sdo:description "Coding sequences of merged reads in amino acid format" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/54/6dac8bef58c58398e44af0242fb9df" ;
+    sdo:encodingFormat "application/x-bzip2" ;
+    sdo:name "Protein coding amino acid sequences" ;
+    rdfs:comment "Coding sequences of merged reads in amino acid format" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/DBB.merged_CDS.ffn.bz2> a edam:data_2977,
+        sdo:MediaObject ;
+    rdfs:label "Protein coding nucleotide sequences" ;
+    dct:format edam:format_1929 ;
+    sdo:contentSize "1366815614" ;
+    sdo:description "Coding sequences of merged reads in nucleotide format" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/77/9ee89eebc020ba59a8d1a5ed54fe47" ;
+    sdo:encodingFormat "application/x-bzip2" ;
+    sdo:name "Protein coding nucleotide sequences" ;
+    rdfs:comment "Coding sequences of merged reads in nucleotide format" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/DBB_AAEWOSDA_2_1_HVWGWDSX5.UDI215_clean.fastq.trimmed.fasta.bz2> a edam:data_2977,
+        sdo:MediaObject ;
+    rdfs:label "Trimmed forward reads" ;
+    dct:format edam:format_1929 ;
+    sdo:contentSize "1106157505" ;
+    sdo:description "All forward reads after trimming in fasta format" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/c0/59d0f44ca511f0c04d39149e5d220c" ;
+    sdo:encodingFormat "application/x-bzip2" ;
+    sdo:name "Trimmed forward reads" ;
+    rdfs:comment "All forward reads after trimming in fasta format" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/DBB_AAEWOSDA_2_1_HVWGWDSX5.UDI215_clean.fastq.trimmed.qc_summary> a sdo:MediaObject ;
+    rdfs:label "Trimmed forward reads QC summary" ;
+    sdo:contentSize "219" ;
+    sdo:description "Quality control summary of trimmed forward reads" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/e4/930f0e6b09e7d6e30acf6708caa46c" ;
+    sdo:encodingFormat "text/plain" ;
+    sdo:name "Trimmed forward reads QC summary" ;
+    rdfs:comment "Quality control summary of trimmed forward reads" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/DBB_AAEWOSDA_2_2_HVWGWDSX5.UDI215_clean.fastq.trimmed.fasta.bz2> a edam:data_2977,
+        sdo:MediaObject ;
+    rdfs:label "Trimmed reverse reads" ;
+    dct:format edam:format_1929 ;
+    sdo:contentSize "1106450735" ;
+    sdo:description "All reverse reads after trimming in fasta format" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/43/ce866aba2de4f9de9c9e9e3f703a89" ;
+    sdo:encodingFormat "application/x-bzip2" ;
+    sdo:name "Trimmed reverse reads" ;
+    rdfs:comment "All reverse reads after trimming in fasta format" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/DBB_AAEWOSDA_2_2_HVWGWDSX5.UDI215_clean.fastq.trimmed.qc_summary> a sdo:MediaObject ;
+    rdfs:label "Trimmed reverse reads QC summary" ;
+    sdo:contentSize "219" ;
+    sdo:description "Quality control summary of trimmed reverse reads" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/e4/930f0e6b09e7d6e30acf6708caa46c" ;
+    sdo:encodingFormat "text/plain" ;
+    sdo:name "Trimmed reverse reads QC summary" ;
+    rdfs:comment "Quality control summary of trimmed reverse reads" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/config.yml> a sdo:MediaObject ;
+    rdfs:label "MetaGOflow configuration in YAML" ;
+    sdo:contentSize "3056" ;
+    sdo:description "MetaGOflow YAML configuation file" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/34/7b2857e33933c61eddc980fb4a614d" ;
+    sdo:encodingFormat "text/yaml" ;
+    sdo:name "MetaGOflow configuration in YAML" ;
+    rdfs:comment "MetaGOflow YAML configuation file" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/fastp.html> a sdo:MediaObject ;
+    rdfs:label "FASTP analysis of raw sequence data" ;
+    sdo:contentSize "385594" ;
+    sdo:description "Quality control and preprocessing of FASTQ files" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/5f/510a23a1564aebce5f1dfb81f86f5b" ;
+    sdo:encodingFormat "text/html" ;
+    sdo:name "FASTP analysis of raw sequence data" ;
+    rdfs:comment "Quality control and preprocessing of FASTQ files" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/final.contigs.fa.bz2> a edam:data_0925,
+        sdo:MediaObject ;
+    rdfs:label "FASTA formatted contig sequences" ;
+    dct:format edam:format_1929 ;
+    sdo:contentSize "25912918" ;
+    sdo:description "These are the assembled contig sequences from the merged reads in FASTA format" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/99/ad83ced5208bdb83b704498a9b9d5f" ;
+    sdo:encodingFormat "application/x-bzip2" ;
+    sdo:name "FASTA formatted contig sequences" ;
+    rdfs:comment "These are the assembled contig sequences from the merged reads in FASTA format" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/> a sdo:Dataset,
+        efo:EFO_0007882 ;
+    rdfs:label "Functional annotation results" ;
+    sdo:description "Functional annotation of merged reads" ;
+    sdo:hasPart <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/DBB.merged.emapper.summary.eggnog>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/DBB.merged.hmm.tsv.gz>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/DBB.merged.summary.go>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/DBB.merged.summary.go_slim>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/DBB.merged.summary.ips>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/DBB.merged.summary.ko>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/DBB.merged.summary.pfam>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/DBB.merged_CDS.I5.tsv.gz>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/functional-annotation.ttl>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/stats/> ;
+    sdo:name "Functional annotation results" ;
+    rdfs:comment "Functional annotation of merged reads" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/DBB.merged.emapper.summary.eggnog> a sdo:MediaObject ;
+    rdfs:label "Eggnog emapper summary" ;
+    sdo:contentSize "6488114" ;
+    sdo:description "Summary of Eggnog emapper analysis" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/e3/220541c1547311165ff0d38c2d9eb9" ;
+    sdo:encodingFormat "text/plain" ;
+    sdo:name "Eggnog emapper summary" ;
+    rdfs:comment "Summary of Eggnog emapper analysis" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/DBB.merged.hmm.tsv.gz> a sdo:MediaObject ;
+    rdfs:label "Merged contigs HMM summary" ;
+    sdo:contentSize "4942153" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/3d/d0ee832a3a071e8c95e44771d007f6" ;
+    sdo:encodingFormat "application/zip" ;
+    sdo:name "Merged contigs HMM summary" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/DBB.merged.summary.go> a sdo:MediaObject,
+        efo:EFO_0007884 ;
+    rdfs:label "Merged contigs GO summary" ;
+    sdo:contentSize "155848" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/1b/adec63398b83bf7da4c6d914ccc17d" ;
+    sdo:encodingFormat "text/plain" ;
+    sdo:name "Merged contigs GO summary" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/DBB.merged.summary.go_slim> a sdo:MediaObject,
+        efo:EFO_0007884 ;
+    rdfs:label "Merged contigs InterProScan slim" ;
+    sdo:contentSize "7635" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/7e/c113e5a986b30c2ffc3d430f92a241" ;
+    sdo:encodingFormat "text/plain" ;
+    sdo:name "Merged contigs InterProScan slim" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/DBB.merged.summary.ips> a sdo:MediaObject,
+        efo:EFO_0007884 ;
+    rdfs:label "Merged contigs InterProScan" ;
+    sdo:contentSize "634912" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/aa/eb9e847939ecfa89febf201bf1240c" ;
+    sdo:encodingFormat "text/plain" ;
+    sdo:name "Merged contigs InterProScan" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/DBB.merged.summary.ko> a sdo:MediaObject,
+        efo:EFO_0007884 ;
+    rdfs:label "Merged contigs KO summary" ;
+    sdo:contentSize "126536" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/8f/a0ad49082b143216b51fd85d3978ac" ;
+    sdo:encodingFormat "text/plain" ;
+    sdo:name "Merged contigs KO summary" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/DBB.merged.summary.pfam> a sdo:MediaObject,
+        efo:EFO_0007884 ;
+    rdfs:label "Merged contigs PFAM summary" ;
+    sdo:contentSize "544246" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/82/9f6bc199c034bd8640c35f272e8e77" ;
+    sdo:encodingFormat "text/plain" ;
+    sdo:name "Merged contigs PFAM summary" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/DBB.merged_CDS.I5.tsv.gz> a sdo:MediaObject ;
+    rdfs:label "Merged contigs CDS I5 summary" ;
+    sdo:contentSize "1609110289" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/83/01c4571eab462283bd8d34df6d1fd4" ;
+    sdo:encodingFormat "application/zip" ;
+    sdo:name "Merged contigs CDS I5 summary" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/functional-annotation.ttl> a sdo:MediaObject,
+        efo:EFO_0007884 ;
+    rdfs:label "RDF 1.2 Turtle triples of the functional analyses results" ;
+    dct:conformsTo <https://data.emobon.embrc.eu/ns/profile#graph-harvestable-partition> ;
+    sdo:contentSize "49677787" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/3b/07458138e4ca755a87379e0443b8c8" ;
+    sdo:encodingFormat "text/turtle" ;
+    sdo:name "RDF 1.2 Turtle triples of the functional analyses results" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/stats/> a sdo:Dataset ;
+    rdfs:label "Summary statistic for functional annotation" ;
+    sdo:hasPart <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/stats/go.stats>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/stats/interproscan.stats>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/stats/ko.stats>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/stats/orf.stats>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/stats/pfam.stats> ;
+    sdo:name "Summary statistic for functional annotation" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/stats/go.stats> a sdo:MediaObject ;
+    rdfs:label "Geno Ontology summary statistics" ;
+    sdo:contentSize "86" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/df/cd79ea69d27cd09de85f42a7b424ac" ;
+    sdo:encodingFormat "text/plain" ;
+    sdo:name "Geno Ontology summary statistics" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/stats/interproscan.stats> a sdo:MediaObject ;
+    rdfs:label "InterProScan summary statistics" ;
+    sdo:contentSize "118" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/41/d1a644fb2b3ca626f48ec7d9e2abd1" ;
+    sdo:encodingFormat "text/plain" ;
+    sdo:name "InterProScan summary statistics" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/stats/ko.stats> a sdo:MediaObject ;
+    rdfs:label "Kegg Ontology summary statistics" ;
+    sdo:contentSize "85" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/94/4c81aa3ffa6ab520728c01a2851597" ;
+    sdo:encodingFormat "text/plain" ;
+    sdo:name "Kegg Ontology summary statistics" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/stats/orf.stats> a sdo:MediaObject ;
+    rdfs:label "ORF summary statistics" ;
+    sdo:contentSize "88" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/9e/f5037ff1cfd1935ea6db6af605ece4" ;
+    sdo:encodingFormat "text/plain" ;
+    sdo:name "ORF summary statistics" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/functional-annotation/stats/pfam.stats> a sdo:MediaObject ;
+    rdfs:label "Pfam summary statistcs" ;
+    sdo:contentSize "94" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/b4/c715906c03fe16cfcb30240cf38edf" ;
+    sdo:encodingFormat "text/plain" ;
+    sdo:name "Pfam summary statistcs" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/help@embrc.org> a sdo:ContactPoint ;
+    sdo:contactType "Help Desk" ;
+    sdo:email "mailto:help@embrc.org" ;
+    sdo:url "https://www.embrc.eu/about-us/contact-us" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/run.yml> a sdo:MediaObject ;
+    rdfs:label "MetaGOflow YAML configuration file" ;
+    sdo:contentSize "10652" ;
+    sdo:description "YAML configuration file for execution of MetaGOflow workflow." ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/f9/c04253ea07196205714d27918c47f9" ;
+    sdo:encodingFormat "text/yaml" ;
+    sdo:name "MetaGOflow YAML configuration file" ;
+    rdfs:comment "YAML configuration file for execution of MetaGOflow workflow." .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/> a sdo:Dataset ;
+    rdfs:label "Sequence categorisation" ;
+    sdo:description "Identify specific loci in the sample." ;
+    sdo:hasPart <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/5_8S.fa.gz>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/Bacteria_small_SRP.RF00169.fasta.gz>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/LSU_rRNA_archaea.RF02540.fa.gz>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/LSU_rRNA_bacteria.RF02541.fa.gz>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/LSU_rRNA_eukarya.RF02543.fa.gz>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/Metazoa_SRP.RF00017.fasta.gz>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/Protozoa_SRP.RF01856.fasta.gz>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/RNaseP_bact_a.RF00010.fasta.gz>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/RNaseP_nuc.RF00009.fasta.gz>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/SSU_rRNA_archaea.RF01959.fa.gz>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/SSU_rRNA_bacteria.RF00177.fa.gz>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/SSU_rRNA_eukarya.RF01960.fa.gz>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/alpha_tmRNA.RF01849.fasta.gz>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/cyano_tmRNA.RF01851.fasta.gz>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/tRNA-Sec.RF01852.fasta.gz>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/tRNA.RF00005.fasta.gz>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/tmRNA.RF00023.fasta.gz> ;
+    sdo:name "Sequence categorisation" ;
+    rdfs:comment "Identify specific loci in the sample." .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/5_8S.fa.gz> a edam:data_3495,
+        sdo:MediaObject ;
+    rdfs:label "RNA prediction for 5_8S" ;
+    dct:format edam:format_1929 ;
+    sdo:contentSize "20853" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/e5/009c3d5ad8be0c09fd3d478771d5ac" ;
+    sdo:encodingFormat "application/zip" ;
+    sdo:name "RNA prediction for 5_8S" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/Bacteria_small_SRP.RF00169.fasta.gz> a edam:data_3495,
+        sdo:MediaObject ;
+    rdfs:label "RNA prediction for Bacteria_small_SRP - Rfam accesssion number: RF00169" ;
+    dct:format edam:format_1929 ;
+    sdo:contentSize "2039" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/e3/05c2b98e605a855b9c7f9c41838b36" ;
+    sdo:encodingFormat "application/zip" ;
+    sdo:name "RNA prediction for Bacteria_small_SRP - Rfam accesssion number: RF00169" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/LSU_rRNA_archaea.RF02540.fa.gz> a edam:data_3495,
+        sdo:MediaObject ;
+    rdfs:label "RNA prediction for LSU_rRNA_archaea - Rfam accesssion number: RF02540" ;
+    dct:format edam:format_1929 ;
+    sdo:contentSize "2077" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/6a/304bb89c205c333fdadf0283c021fa" ;
+    sdo:encodingFormat "application/zip" ;
+    sdo:name "RNA prediction for LSU_rRNA_archaea - Rfam accesssion number: RF02540" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/LSU_rRNA_bacteria.RF02541.fa.gz> a edam:data_3495,
+        sdo:MediaObject ;
+    rdfs:label "RNA prediction for LSU_rRNA_bacteria - Rfam accesssion number: RF02541" ;
+    dct:format edam:format_1929 ;
+    sdo:contentSize "446312" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/c5/f123cdc4fb3a6a8dba74391cd2e8a7" ;
+    sdo:encodingFormat "application/zip" ;
+    sdo:name "RNA prediction for LSU_rRNA_bacteria - Rfam accesssion number: RF02541" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/LSU_rRNA_eukarya.RF02543.fa.gz> a edam:data_3495,
+        sdo:MediaObject ;
+    rdfs:label "RNA prediction for LSU_rRNA_eukarya - Rfam accesssion number: RF02543" ;
+    dct:format edam:format_1929 ;
+    sdo:contentSize "523825" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/46/08e7526966aed6e5ab5314e58a605d" ;
+    sdo:encodingFormat "application/zip" ;
+    sdo:name "RNA prediction for LSU_rRNA_eukarya - Rfam accesssion number: RF02543" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/Metazoa_SRP.RF00017.fasta.gz> a edam:data_3495,
+        sdo:MediaObject ;
+    rdfs:label "RNA prediction for Metazoa_SRP - Rfam accesssion number: RF00017" ;
+    dct:format edam:format_1929 ;
+    sdo:contentSize "390" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/61/33d3be0126efa3177a16670db3533d" ;
+    sdo:encodingFormat "application/zip" ;
+    sdo:name "RNA prediction for Metazoa_SRP - Rfam accesssion number: RF00017" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/Protozoa_SRP.RF01856.fasta.gz> a edam:data_3495,
+        sdo:MediaObject ;
+    rdfs:label "RNA prediction for Protozoa_SRP - Rfam accesssion number: RF01856" ;
+    dct:format edam:format_1929 ;
+    sdo:contentSize "320" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/bc/5dfb1fd9f63030ee023d479196ba25" ;
+    sdo:encodingFormat "application/zip" ;
+    sdo:name "RNA prediction for Protozoa_SRP - Rfam accesssion number: RF01856" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/RNaseP_bact_a.RF00010.fasta.gz> a edam:data_3495,
+        sdo:MediaObject ;
+    rdfs:label "RNA prediction for RNaseP_bact_a - Rfam accesssion number: RF00010" ;
+    dct:format edam:format_1929 ;
+    sdo:contentSize "3675" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/6f/724fb6b31ebc946fc72f6f19e4e386" ;
+    sdo:encodingFormat "application/zip" ;
+    sdo:name "RNA prediction for RNaseP_bact_a - Rfam accesssion number: RF00010" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/RNaseP_nuc.RF00009.fasta.gz> a edam:data_3495,
+        sdo:MediaObject ;
+    rdfs:label "RNA prediction for RNaseP_nuc - Rfam accesssion number: RF00009" ;
+    dct:format edam:format_1929 ;
+    sdo:contentSize "167" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/69/29cd78bb007342d13731e963f4b477" ;
+    sdo:encodingFormat "application/zip" ;
+    sdo:name "RNA prediction for RNaseP_nuc - Rfam accesssion number: RF00009" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/SSU_rRNA_archaea.RF01959.fa.gz> a edam:data_3495,
+        sdo:MediaObject ;
+    rdfs:label "RNA prediction for SSU_rRNA_archaea - Rfam accesssion number: RF01959" ;
+    dct:format edam:format_1929 ;
+    sdo:contentSize "1035" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/39/b55d46d6d9c8b87af829deb728c0b8" ;
+    sdo:encodingFormat "application/zip" ;
+    sdo:name "RNA prediction for SSU_rRNA_archaea - Rfam accesssion number: RF01959" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/SSU_rRNA_bacteria.RF00177.fa.gz> a edam:data_3495,
+        sdo:MediaObject ;
+    rdfs:label "RNA prediction for SSU_rRNA_bacteria - Rfam accesssion number: RF00177" ;
+    dct:format edam:format_1929 ;
+    sdo:contentSize "216917" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/88/6fa3822025ec373b63afad3f83ba8b" ;
+    sdo:encodingFormat "application/zip" ;
+    sdo:name "RNA prediction for SSU_rRNA_bacteria - Rfam accesssion number: RF00177" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/SSU_rRNA_eukarya.RF01960.fa.gz> a edam:data_3495,
+        sdo:MediaObject ;
+    rdfs:label "RNA prediction for SSU_rRNA_eukarya - Rfam accesssion number: RF01960" ;
+    dct:format edam:format_1929 ;
+    sdo:contentSize "294355" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/7a/17d50cd6325db21e87076249f110a6" ;
+    sdo:encodingFormat "application/zip" ;
+    sdo:name "RNA prediction for SSU_rRNA_eukarya - Rfam accesssion number: RF01960" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/alpha_tmRNA.RF01849.fasta.gz> a edam:data_3495,
+        sdo:MediaObject ;
+    rdfs:label "RNA prediction for alpha_tmRNA - Rfam accesssion number: RF01849" ;
+    dct:format edam:format_1929 ;
+    sdo:contentSize "4746" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/f2/712f5ef7a821e8314b661ac9582242" ;
+    sdo:encodingFormat "application/zip" ;
+    sdo:name "RNA prediction for alpha_tmRNA - Rfam accesssion number: RF01849" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/cyano_tmRNA.RF01851.fasta.gz> a edam:data_3495,
+        sdo:MediaObject ;
+    rdfs:label "RNA prediction for cyano_tmRNA - Rfam accesssion number: RF01851" ;
+    dct:format edam:format_1929 ;
+    sdo:contentSize "1206" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/4e/19cdd6eff3fb85a6e337498b0e5e36" ;
+    sdo:encodingFormat "application/zip" ;
+    sdo:name "RNA prediction for cyano_tmRNA - Rfam accesssion number: RF01851" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/tRNA-Sec.RF01852.fasta.gz> a edam:data_3495,
+        sdo:MediaObject ;
+    rdfs:label "RNA prediction for tRNA-Sec - Rfam accesssion number: RF01852" ;
+    dct:format edam:format_1929 ;
+    sdo:contentSize "647" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/8d/360eabc46fb2326fcc511213afedff" ;
+    sdo:encodingFormat "application/zip" ;
+    sdo:name "RNA prediction for tRNA-Sec - Rfam accesssion number: RF01852" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/tRNA.RF00005.fasta.gz> a edam:data_3495,
+        sdo:MediaObject ;
+    rdfs:label "RNA prediction for tRNA - Rfam accesssion number: RF00005" ;
+    dct:format edam:format_1929 ;
+    sdo:contentSize "132711" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/0c/aaf2bb1554dbce22dae7db2eaf21bb" ;
+    sdo:encodingFormat "application/zip" ;
+    sdo:name "RNA prediction for tRNA - Rfam accesssion number: RF00005" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/sequence-categorisation/tmRNA.RF00023.fasta.gz> a edam:data_3495,
+        sdo:MediaObject ;
+    rdfs:label "RNA prediction for tmRNA - Rfam accesssion number: RF00023" ;
+    dct:format edam:format_1929 ;
+    sdo:contentSize "7878" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/ef/861fe48a95fa221b563c56c3e40dce" ;
+    sdo:encodingFormat "application/zip" ;
+    sdo:name "RNA prediction for tmRNA - Rfam accesssion number: RF00023" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/> a sdo:Dataset ;
+    rdfs:label "Taxonomic summary" ;
+    sdo:description "Summary of taxonomic identification results" ;
+    sdo:hasPart <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/LSU/>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/RNA-counts>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/SSU/> ;
+    sdo:name "Taxonomic summary" ;
+    rdfs:comment "Summary of taxonomic identification results" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/LSU/> a sdo:Dataset,
+        efo:EFO_0007882 ;
+    rdfs:label "Summary of LSU taxonomic identification results" ;
+    sdo:hasPart <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/LSU/DBB.merged_LSU.fasta.mseq.gz>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/LSU/DBB.merged_LSU.fasta.mseq.tsv>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/LSU/DBB.merged_LSU.fasta.mseq.txt>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/LSU/DBB.merged_LSU.fasta.mseq_hdf5.biom>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/LSU/DBB.merged_LSU.fasta.mseq_json.biom>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/LSU/LSU-taxonomy-summary.ttl>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/LSU/krona.html> ;
+    sdo:name "Summary of LSU taxonomic identification results" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/LSU/DBB.merged_LSU.fasta.mseq.gz> a edam:data_2977,
+        sdo:MediaObject ;
+    rdfs:label "LSU sequences used for identification" ;
+    sdo:contentSize "811112" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/6e/1e0aca9b2fc513d5945e911f0611d9" ;
+    sdo:encodingFormat "application/zip" ;
+    sdo:name "LSU sequences used for identification" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/LSU/DBB.merged_LSU.fasta.mseq.tsv> a sdo:MediaObject,
+        efo:EFO_0007883 ;
+    rdfs:label "Tab-separated formatted taxon counts for LSU sequences" ;
+    sdo:contentSize "63313" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/78/8506ea6c47d32071a30e1bf2e9fb4f" ;
+    sdo:encodingFormat "text/tab-separated-values" ;
+    sdo:name "Tab-separated formatted taxon counts for LSU sequences" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/LSU/DBB.merged_LSU.fasta.mseq.txt> a sdo:MediaObject,
+        efo:EFO_0007883 ;
+    rdfs:label "Text-based taxon counts for LSU sequences" ;
+    sdo:contentSize "54290" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/bd/dfed40d25b430283148fac62bcc27d" ;
+    sdo:encodingFormat "text/plain" ;
+    sdo:name "Text-based taxon counts for LSU sequences" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/LSU/DBB.merged_LSU.fasta.mseq_hdf5.biom> a sdo:MediaObject,
+        efo:EFO_0007883 ;
+    rdfs:label "BIOM formatted hdf5 taxon counts for LSU sequences" ;
+    dct:format edam:format_3746 ;
+    sdo:contentSize "75952" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/b4/0d67500ee909d18f184127621bb94c" ;
+    sdo:encodingFormat "application/x-hdf5" ;
+    sdo:name "BIOM formatted hdf5 taxon counts for LSU sequences" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/LSU/DBB.merged_LSU.fasta.mseq_json.biom> a sdo:MediaObject,
+        efo:EFO_0007883 ;
+    rdfs:label "BIOM formatted taxon counts for LSU sequences" ;
+    dct:format edam:format_3746 ;
+    sdo:contentSize "89194" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/f1/eb6577cfd6f7ee32e2e6dc6bce37ce" ;
+    sdo:encodingFormat "application/json-ld" ;
+    sdo:name "BIOM formatted taxon counts for LSU sequences" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/LSU/LSU-taxonomy-summary.ttl> a sdo:MediaObject,
+        efo:EFO_0007883 ;
+    rdfs:label "RDF 1.2 Turtle triples of the LSU taxonomic analyses results" ;
+    dct:conformsTo <https://data.emobon.embrc.eu/ns/profile#graph-harvestable-partition> ;
+    sdo:contentSize "377326" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/34/977b07b326fa6cdc47ccec2aa3e9d8" ;
+    sdo:encodingFormat "text/turtle" ;
+    sdo:name "RDF 1.2 Turtle triples of the LSU taxonomic analyses results" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/LSU/krona.html> a sdo:MediaObject ;
+    rdfs:label "Krona summary of LSU taxonomic inventory" ;
+    sdo:contentSize "308717" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/f0/d1c6b5d56a29e8ef3bc7da19b02dcb" ;
+    sdo:encodingFormat "application/html" ;
+    sdo:name "Krona summary of LSU taxonomic inventory" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/RNA-counts> a sdo:MediaObject ;
+    rdfs:label "Numbers of RNA's counted" ;
+    sdo:contentSize "3675" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/86/025fad8986c27d4a6ed27e6cb4129d" ;
+    sdo:encodingFormat "text/plain" ;
+    sdo:name "Numbers of RNA's counted" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/SSU/> a sdo:Dataset,
+        efo:EFO_0007882 ;
+    rdfs:label "Summary of SSU taxonomic identification results" ;
+    sdo:hasPart <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/SSU/DBB.merged_SSU.fasta.mseq.gz>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/SSU/DBB.merged_SSU.fasta.mseq.tsv>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/SSU/DBB.merged_SSU.fasta.mseq.txt>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/SSU/DBB.merged_SSU.fasta.mseq_hdf5.biom>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/SSU/DBB.merged_SSU.fasta.mseq_json.biom>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/SSU/SSU-taxonomy-summary.ttl>,
+        <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/SSU/krona.html> ;
+    sdo:name "Summary of SSU taxonomic identification results" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/SSU/DBB.merged_SSU.fasta.mseq.gz> a edam:data_2977,
+        sdo:MediaObject ;
+    rdfs:label "SSU sequences used for identification" ;
+    sdo:contentSize "434064" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/7f/b386bf6a9df7991bf7c30633ce5658" ;
+    sdo:encodingFormat "application/zip" ;
+    sdo:name "SSU sequences used for identification" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/SSU/DBB.merged_SSU.fasta.mseq.tsv> a sdo:MediaObject,
+        efo:EFO_0007883 ;
+    rdfs:label "Tab-separated formatted taxon counts for SSU sequences" ;
+    sdo:contentSize "49191" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/13/781c4063dc2475ada425f0d2283472" ;
+    sdo:encodingFormat "text/tab-separated-values" ;
+    sdo:name "Tab-separated formatted taxon counts for SSU sequences" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/SSU/DBB.merged_SSU.fasta.mseq.txt> a sdo:MediaObject,
+        efo:EFO_0007883 ;
+    rdfs:label "Text-based formatted taxon counts for SSU sequences" ;
+    sdo:contentSize "41451" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/5f/6473a8fdd366aa077a9eb2a3748af1" ;
+    sdo:encodingFormat "text/plain" ;
+    sdo:name "Text-based formatted taxon counts for SSU sequences" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/SSU/DBB.merged_SSU.fasta.mseq_hdf5.biom> a sdo:MediaObject,
+        efo:EFO_0007883 ;
+    rdfs:label "BIOM formatted hdf5 taxon counts for SSU sequences" ;
+    dct:format edam:format_3746 ;
+    sdo:contentSize "65712" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/25/6823c648e0f9a9642c2663a53a532d" ;
+    sdo:encodingFormat "application/x-hdf5" ;
+    sdo:name "BIOM formatted hdf5 taxon counts for SSU sequences" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/SSU/DBB.merged_SSU.fasta.mseq_json.biom> a sdo:MediaObject,
+        efo:EFO_0007883 ;
+    rdfs:label "BIOM formatted taxon counts for SSU sequences" ;
+    dct:format edam:format_3746 ;
+    sdo:contentSize "69927" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/27/d237764cb227d592cc252071545039" ;
+    sdo:encodingFormat "application/json-ld" ;
+    sdo:name "BIOM formatted taxon counts for SSU sequences" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/SSU/SSU-taxonomy-summary.ttl> a sdo:MediaObject,
+        efo:EFO_0007883 ;
+    rdfs:label "RDF 1.2 Turtle triples of the SSU taxonomic analyses results" ;
+    dct:conformsTo <https://data.emobon.embrc.eu/ns/profile#graph-harvestable-partition> ;
+    sdo:contentSize "302208" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/fe/bd2ac183b2425f5e05305ba9c05b92" ;
+    sdo:encodingFormat "text/turtle" ;
+    sdo:name "RDF 1.2 Turtle triples of the SSU taxonomic analyses results" .
+
+<https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/taxonomy-summary/SSU/krona.html> a sdo:MediaObject ;
+    rdfs:label "Krona summary of SSU taxonomic inventory" ;
+    sdo:contentSize "308717" ;
+    sdo:downloadUrl "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/f0/d1c6b5d56a29e8ef3bc7da19b02dcb" ;
+    sdo:encodingFormat "text/html" ;
+    sdo:name "Krona summary of SSU taxonomic inventory" .
+
+<https://orcid.org/0000-0002-4927-979X> a sdo:Person ;
+    rdfs:label "Cymon J. Cox" ;
+    sdo:name "Cymon J. Cox" .
+
+<https://ror.org/0038zss60> a sdo:Organization ;
+    rdfs:label "European Marine Biological Resource Centre" ;
+    sdo:contactPoint <https://github.com/emo-bon/analysis-results-cluster-01-crate/EMOBON_VB_Wa_94-ro-crate/help@embrc.org> ;
+    sdo:name "European Marine Biological Resource Centre" .
+
+<https://vocabularyserver.com/asfa/?tema=1150> a skos:Concept ;
+    skos:prefLabel "Marine environment" .
+
+<https://vocabularyserver.com/asfa/?tema=2091> a skos:Concept ;
+    skos:prefLabel "Benthic communities" .
+
+<https://vocabularyserver.com/asfa/?tema=2185> a skos:Concept ;
+    skos:prefLabel "Biodiversity" .
+
+<https://vocabularyserver.com/asfa/?tema=2365> a skos:Concept ;
+    skos:prefLabel "Genetics" .
+
+<https://vocabularyserver.com/asfa/?tema=3248> a skos:Concept ;
+    skos:prefLabel "Water samples" .
+
+<https://vocabularyserver.com/asfa/?tema=3505> a skos:Concept ;
+    skos:prefLabel "Long-term changes" .
+
+<https://vocabularyserver.com/asfa/?tema=6369> a skos:Concept ;
+    skos:prefLabel "Sediment samples" .
+
+<https://www.ebi.ac.uk/ena/browser/view/ERS20569050> a sdo:WebSite ;
+    rdfs:label "EMBL ENA Run Accession Number ERS20569050" ;
+    sdo:description "ENA Run Accession Number and associated metadata" ;
+    sdo:downloadUrl "https://www.ebi.ac.uk/ena/browser/view/ERS20569050" ;
+    sdo:encodingFormat "text/html" ;
+    sdo:name "EMBL ENA Run Accession Number ERS20569050" ;
+    rdfs:comment "ENA Run Accession Number and associated metadata" .
+
