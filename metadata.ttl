@@ -7,28 +7,68 @@
 <>
     a dcat:Catalog ;
     dc:description "Dataset catalogue for the rocrates in this repository: https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
-    dc:modified "2025-10-23T12:57:00.000"^^xsd:dateTime ;
+    dc:modified "2025-10-24T15:29:41.000"^^xsd:dateTime ;
     dcat:dataset
     
-        <EMOBON_AAOT_Wa_67-ro-crate>,
+        <EMOBON_NRMCB_Wa_69-ro-crate>,
     
-        <EMOBON_HCMR-1_Wa_6-ro-crate>
+        <EMOBON_VB_Wa_94-ro-crate>,
+    
+        <EMOBON_OSD74_Wa_24-ro-crate>,
+    
+        <EMOBON_AAOT_Wa_61-ro-crate>,
+    
+        <EMOBON_PiEGetxo_Wa_14-ro-crate>,
+    
+        <EMOBON_OSD74_Wa_22-ro-crate>
     
     .
 
 
-<EMOBON_AAOT_Wa_67-ro-crate> a dcat:Dataset ;
-    dc:title "EMOBON_AAOT_Wa_67-ro-crate" ;
-    dc:description "content of the dataset EMOBON_AAOT_Wa_67-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+<EMOBON_NRMCB_Wa_69-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_NRMCB_Wa_69-ro-crate" ;
+    dc:description "content of the dataset EMOBON_NRMCB_Wa_69-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
     dcat:distribution [
         a dcat:Distribution ;
-        dcat:accessURL <EMOBON_AAOT_Wa_67-ro-crate> ; 
+        dcat:accessURL <EMOBON_NRMCB_Wa_69-ro-crate> ; 
     ] .
 
-<EMOBON_HCMR-1_Wa_6-ro-crate> a dcat:Dataset ;
-    dc:title "EMOBON_HCMR-1_Wa_6-ro-crate" ;
-    dc:description "content of the dataset EMOBON_HCMR-1_Wa_6-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+<EMOBON_VB_Wa_94-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_VB_Wa_94-ro-crate" ;
+    dc:description "content of the dataset EMOBON_VB_Wa_94-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
     dcat:distribution [
         a dcat:Distribution ;
-        dcat:accessURL <EMOBON_HCMR-1_Wa_6-ro-crate> ; 
+        dcat:accessURL <EMOBON_VB_Wa_94-ro-crate> ; 
+    ] .
+
+<EMOBON_OSD74_Wa_24-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_OSD74_Wa_24-ro-crate" ;
+    dc:description "content of the dataset EMOBON_OSD74_Wa_24-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_OSD74_Wa_24-ro-crate> ; 
+    ] .
+
+<EMOBON_AAOT_Wa_61-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_AAOT_Wa_61-ro-crate" ;
+    dc:description "content of the dataset EMOBON_AAOT_Wa_61-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_AAOT_Wa_61-ro-crate> ; 
+    ] .
+
+<EMOBON_PiEGetxo_Wa_14-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_PiEGetxo_Wa_14-ro-crate" ;
+    dc:description "content of the dataset EMOBON_PiEGetxo_Wa_14-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_PiEGetxo_Wa_14-ro-crate> ; 
+    ] .
+
+<EMOBON_OSD74_Wa_22-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_OSD74_Wa_22-ro-crate" ;
+    dc:description "content of the dataset EMOBON_OSD74_Wa_22-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_OSD74_Wa_22-ro-crate> ; 
     ] .
