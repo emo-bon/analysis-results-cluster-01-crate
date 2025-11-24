@@ -7,10 +7,12 @@
 <>
     a dcat:Catalog ;
     dc:description "Dataset catalogue for the rocrates in this repository: https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
-    dc:modified "2025-11-24T14:38:23.000"^^xsd:dateTime ;
+    dc:modified "2025-11-24T15:00:47.000"^^xsd:dateTime ;
     dcat:dataset
     
-        <EMOBON_ROSKOGO_Wa_23-ro-crate>
+        <EMOBON_ROSKOGO_Wa_23-ro-crate>,
+    
+        <EMOBON_ROSKOGO_Wa_27-ro-crate>
     
     .
 
@@ -21,4 +23,12 @@
     dcat:distribution [
         a dcat:Distribution ;
         dcat:accessURL <EMOBON_ROSKOGO_Wa_23-ro-crate> ; 
+    ] .
+
+<EMOBON_ROSKOGO_Wa_27-ro-crate> a dcat:Dataset ;
+    dc:title "EMOBON_ROSKOGO_Wa_27-ro-crate" ;
+    dc:description "content of the dataset EMOBON_ROSKOGO_Wa_27-ro-crate in the dataset catalogue https://data.emobon.embrc.eu/analysis-results-cluster-01-crate/" ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:accessURL <EMOBON_ROSKOGO_Wa_27-ro-crate> ; 
     ] .
