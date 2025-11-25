@@ -1,0 +1,5 @@
+outs:
+- md5: 04e3f48af632306d206de76f32d05f5d
+  size: 133319
+  hash: md5
+  path: DBB.merged.summary.ko
