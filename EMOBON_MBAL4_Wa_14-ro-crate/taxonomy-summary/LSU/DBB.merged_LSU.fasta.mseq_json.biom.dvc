@@ -1,0 +1,5 @@
+outs:
+- md5: f5b54955456a6cbdbd4d72d50aaffe1e
+  size: 89371
+  hash: md5
+  path: DBB.merged_LSU.fasta.mseq_json.biom

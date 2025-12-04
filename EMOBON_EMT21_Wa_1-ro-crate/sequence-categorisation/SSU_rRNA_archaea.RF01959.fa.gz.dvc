@@ -1,0 +1,5 @@
+outs:
+- md5: 36e11c4879e143ad5c739e684a6e0e70
+  size: 2288
+  hash: md5
+  path: SSU_rRNA_archaea.RF01959.fa.gz

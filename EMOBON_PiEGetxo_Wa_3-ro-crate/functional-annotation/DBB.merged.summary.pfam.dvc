@@ -1,0 +1,5 @@
+outs:
+- md5: 41d421e1709884bf1666409b92b8a5ad
+  size: 533879
+  hash: md5
+  path: DBB.merged.summary.pfam
