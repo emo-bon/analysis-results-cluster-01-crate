@@ -1,0 +1,5 @@
+outs:
+- md5: 95cef98147d00c87f0c863dc8777bd7d
+  size: 4294
+  hash: md5
+  path: Bacteria_small_SRP.RF00169.fasta.gz

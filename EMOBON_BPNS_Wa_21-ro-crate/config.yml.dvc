@@ -1,0 +1,5 @@
+outs:
+- md5: 648f119c9cfef4bfe0cdb9988843cdf4
+  size: 2863
+  hash: md5
+  path: config.yml
