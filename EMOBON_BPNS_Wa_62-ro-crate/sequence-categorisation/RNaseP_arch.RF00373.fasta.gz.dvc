@@ -1,0 +1,5 @@
+outs:
+- md5: d25b0bee72c880322c0a241f64c0bdbd
+  size: 222
+  hash: md5
+  path: RNaseP_arch.RF00373.fasta.gz
