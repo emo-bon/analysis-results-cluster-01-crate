@@ -1,0 +1,5 @@
+outs:
+- md5: ceec9114018f738a2028fe5c7b092704
+  size: 580916
+  hash: md5
+  path: DBB.merged.summary.ips

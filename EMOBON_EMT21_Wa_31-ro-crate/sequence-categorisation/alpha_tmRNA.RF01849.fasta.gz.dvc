@@ -1,0 +1,5 @@
+outs:
+- md5: f8659d7af81dccd3dfd7c6c434b2d072
+  size: 3320
+  hash: md5
+  path: alpha_tmRNA.RF01849.fasta.gz

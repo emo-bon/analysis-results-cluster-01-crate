@@ -1,0 +1,5 @@
+outs:
+- md5: a9b2f6d7e65d262a6421aa4030d0e90d
+  size: 10236
+  hash: md5
+  path: run.yml
