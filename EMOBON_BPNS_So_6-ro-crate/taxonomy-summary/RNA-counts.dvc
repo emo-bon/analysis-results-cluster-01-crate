@@ -1,0 +1,5 @@
+outs:
+- md5: bf78e9c34a94530c450218bf8ac6c4ea
+  size: 31
+  hash: md5
+  path: RNA-counts

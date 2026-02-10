@@ -1,0 +1,5 @@
+outs:
+- md5: db15ad89bc6c62e31e72a732ccf8ee99
+  size: 301247
+  hash: md5
+  path: SSU-taxonomy-summary.ttl

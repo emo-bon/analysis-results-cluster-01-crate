@@ -1,0 +1,5 @@
+outs:
+- md5: 6c04fddf5545b7bd9a236d351924fd44
+  size: 116644
+  hash: md5
+  path: DBB.merged_SSU.fasta.mseq.tsv
