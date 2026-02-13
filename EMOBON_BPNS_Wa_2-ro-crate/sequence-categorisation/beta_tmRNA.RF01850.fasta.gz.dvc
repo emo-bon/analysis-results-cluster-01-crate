@@ -1,0 +1,5 @@
+outs:
+- md5: 27244befcb49791d483aebd491d90c82
+  size: 235
+  hash: md5
+  path: beta_tmRNA.RF01850.fasta.gz

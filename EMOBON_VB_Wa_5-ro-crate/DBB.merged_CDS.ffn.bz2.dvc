@@ -1,0 +1,5 @@
+outs:
+- md5: 0f5f3793e4067d11d6b6a669d4dfbadb
+  size: 2000490144
+  hash: md5
+  path: DBB.merged_CDS.ffn.bz2

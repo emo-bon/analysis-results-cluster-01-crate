@@ -1,0 +1,5 @@
+outs:
+- md5: 0b037f73d7f2fabeb91491487a169162
+  size: 5340
+  hash: md5
+  path: LSU_rRNA_archaea.RF02540.fa.gz
