@@ -1,0 +1,5 @@
+outs:
+- md5: 94db9421666aab761554cd93b4c9232b
+  size: 122720318
+  hash: md5
+  path: final.contigs.fa.bz2
