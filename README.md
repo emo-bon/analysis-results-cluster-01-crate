@@ -161,3 +161,15 @@ More information is available in [data-workflow-book](https://data.emobon.embrc.
 | EMOBON_VB_Wa_94 | [Villefranche Bay - Point B](https://www.google.com/maps/search/?api=1&query=43.683,7.317) | France | water | 2021-10-18 |
 | EMOBON_VB_Wa_96 | [Villefranche Bay - Point B](https://www.google.com/maps/search/?api=1&query=43.683,7.317) | France | water | 2021-10-18 |
 | EMOBON_VB_Wa_97 | [Villefranche Bay - Point B](https://www.google.com/maps/search/?api=1&query=43.683,7.317) | France | water | 2021-10-18 |
+
+
+Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
