@@ -1,0 +1,5 @@
+outs:
+- md5: 23d88603fa7d142e78123f2755010ec5
+  size: 1924591
+  hash: md5
+  path: DBB.merged_LSU.fasta.mseq.gz

@@ -1,0 +1,5 @@
+outs:
+- md5: ccd6140c27a7c4dfd1e85cd55eb7ea32
+  size: 2211
+  hash: md5
+  path: DBB.merged.motus.tsv.bz2
