@@ -35,8 +35,8 @@
                 "efo:EFO_0004982",
                 "efo:EFO_0004602"
             ],
-            "name": "MetaGoFlow metagenomics data products EMOBON00195 for Sampling Event EMOBON_ROSKOGO_So_22",
-            "description": "\nThis is a Research Object Crate containing results data from a MetaGOflow\nworkflow analysis of metagenomic data derived from European Marine Omics\nBiodiversity Observation Network (EMO BON) project operated by the European\nMarine Biological Research Centre (EMBRC).\n\nSampling station: Station Biologique de Roscoff\nSampling country: France\nSampling station lat/long: 48.708333:-3.866\nSampling environment: soft_sediment\nSampling station contact name: Fabienne Rigaut-Jalabert\nSampling station contact ORCID id: nan\nSampling station ENA project number: PRJEB51662\n\nEMO BON reference code: EMOBON00195\nEMO BON source material id: EMOBON_ROSKOGO_So_22\n\nMetaGOflow run id: HCFCYDSX5.UDI128\n",
+            "name": "MetaGoFlow metagenomics data products EMOBON00195 for Sampling Event EMOBON_ROSKOGO_So_62",
+            "description": "\nThis is a Research Object Crate containing results data from a MetaGOflow\nworkflow analysis of metagenomic data derived from European Marine Omics\nBiodiversity Observation Network (EMO BON) project operated by the European\nMarine Biological Research Centre (EMBRC).\n\nSampling station: Station Biologique de Roscoff\nSampling country: France\nSampling station lat/long: 48.708333:-3.866\nSampling environment: soft_sediment\nSampling station contact name: Fabienne Rigaut-Jalabert\nSampling station contact ORCID id: nan\nSampling station ENA project number: PRJEB51662\n\nEMO BON reference code: EMOBON00195\nEMO BON source material id: EMOBON_ROSKOGO_So_62\n\nMetaGOflow run id: HCFCYDSX5.UDI128\n",
             "datePublished": "2026-02-10",
             "license": {
                 "@id": "https://creativecommons.org/licenses/by/4.0/"
@@ -113,7 +113,7 @@
                     "@id": "https://ftp.sra.ebi.ac.uk/vol1/run/ERR148/ERR14888908/DBH_AAAZOSDA_1_2_HCFCYDSX5.UDI128_clean.fastq.gz"
                 },
                 {
-                    "@id": "https://data.emobon.embrc.eu/sampling/EMOBON_ROSKOGO_So_22"
+                    "@id": "https://data.emobon.embrc.eu/sampling/EMOBON_ROSKOGO_So_62"
                 },
                 {
                     "@id": "https://data.emobon.embrc.eu/sequence/EMOBON00195"
@@ -224,9 +224,9 @@
             "subjectOf": "https://www.ebi.ac.uk/ena/browser/view/ERS20535372"
         },
         {
-            "@id": "https://data.emobon.embrc.eu/sampling/EMOBON_ROSKOGO_So_22",
+            "@id": "https://data.emobon.embrc.eu/sampling/EMOBON_ROSKOGO_So_62",
             "@type": "Dataset",
-            "name": "EMO BON RO-Crate of the sample metadata for EMOBON_ROSKOGO_So_22",
+            "name": "EMO BON RO-Crate of the sample metadata for EMOBON_ROSKOGO_So_62",
             "description": "EMO BON project RO-Crate of the metadata of the sequenced sample used in the current metagenomic analysis",
             "dct:format": {
                 "@id": "edam:format_3749"
